@@ -41,7 +41,7 @@ Most of the gadgets described in this chapter are pictured in
 @ref{fig:ex801a} through @ref{fig:ex804}
 
 @float Figure, fig:ex801a
-@center @image{scroll-groups, 3.5in}
+@center @image{scroll-groups, 3in}
 @shortcaption {The Garnet-style and Motif-style scrollbars, sliders, and
 gauges.}
 @caption {The Garnet-style and Motif-style scrollbars, sliders, and
@@ -53,311 +53,286 @@ gauges.  (a) @code{v-scroll-bar}, (b) @code{v-slider}, (c)
 @end float
 
 
-@subsubheading Gadgets used to choose a value from a range of values
+@c @caption{The Garnet-style and Motif-style scrollbars, sliders, and gauges.
+@c @code{@b[(a)] v-scroll-bar},@*@code{@b[(b)] v-slider}, @code{@b[(c)] gauge},
+@c @code{@b[(d)] trill-device}, @code{@b[(e)] h-scroll-bar},
+@c @code{@b[(f)] h-slider},
+@c @*@code{@b[(g)] motif-v-scroll-bar}, @code{@b[(h)] motif-slider},
+@c @code{@b[(i)] motif-gauge}, @code{@b[(j)] motif-@*trill-device},
+@c @code{@b[(k)] motif-slider}}
+@c @anchor{scroll-group}
+@c @end float
 
+@itemize
+@b{Gadgets used to choose a value from a range of values}
 @vtable @code
-@item v-scroll-bar
-Vertical scrollbar (@ref{scroll-bars})
-@item v-slider
-Vertical slider (same idea as a scrollbar, but with a
-tic-marked shaft rather than a rectangular bounding box) (@ref{sliders})
-@item gauge
-Semi-circular gauge (the needle on the gauge may be
-moved to select a value) (@ref{gauge})
-@item trill-device
-Number input box with increment/decrement trill
-boxes (@ref{trill-device})
-@item h-scroll-bar
-Horizontal scrollbar (@ref{scroll-bars})
-@item h-slider
-Horizontal slider (@ref{sliders})
-@item motif-v-scroll-bar
-Vertical scrollbar (@ref{motif-scroll-bars})
-@item motif-slider
-Vertical slider (same idea as a scrollbar, but with text
-beside the indicator showing the current value) (@ref{motif-slider})
-@item motif-gauge
-Semi-circular gauge (@ref{motif-gauge})
-@item motif-trill-device
-Number input with trill boxes
-(@ref{motif-trill-device})
-@item motif-h-scroll-bar
-Horizontal scrollbar
-(@ref{motif-scroll-bars})
+@code{v-scroll-bar} -  Vertical scrollbar (p. @ref{scroll-bars})
+
+@code{v-slider} -  Vertical slider (same idea as a scrollbar, but with a
+tic-marked shaft rather than a rectangular bounding box) (p. @ref{sliders})
+
+@code{gauge} -  Semi-circular gauge (the needle on the gauge may be
+moved to select a value) (p. @ref{gauge})
+
+@code{trill-device} -  Number input box with increment/decrement trill
+boxes (p. @ref{trill-device})
+
+@code{h-scroll-bar} -  Horizontal scrollbar (p. @ref{scroll-bars})
+
+@code{h-slider} -  Horizontal slider (p. @ref{sliders})
+
+@code{motif-v-scroll-bar} - Vertical scrollbar (p. @ref{motif-scroll-bars})
+
+@code{motif-slider} - Vertical slider (same idea as a scrollbar, but with text
+beside the indicator showing the current value) (p. @ref{motif-slider})
+
+@code{motif-gauge} - Semi-circular gauge (p. @ref{motif-gauge})
+
+@code{motif-trill-device} - Number input with trill boxes
+(p. @ref{motif-trill-device})
+
+@code{motif-h-scroll-bar} - Horizontal scrollbar
+(p. @ref{motif-scroll-bars})
+
 @end vtable
+@end itemize
+
+
 
 @float Figure, fig:ex802
-@center @image{menu-groups, 3.5in}
-@shortcaption{The Garnet-style and Motif-style buttons and menus}
+@center @image{menu-group-pix, 5.5in}
+@center @image{motif-menu-group-pix, 5.5in}
 @caption{The Garnet-style and Motif-style buttons and menus.
-(a) @code{menubar},
-(b) @code{popup-menu-button}, (c) @code{menu},
-(d) @code{scrolling-menu}, (e) @code{text-button-panel},
-(f) @code{x-button-panel}, (g) @code{radio-button-panel},
-(h) @code{option-button},
-(i) @code{motif-menubar}, (j) @code{motif-menu},
-(k) @code{motif-scrolling-menu},
-(l) @code{motif-text-button-panel},
-(m) @code{motif-check-button-panel},
-(n) @code{motif-radio-button-panel},
-(o) @code{motif-option-button} in its unselected and selected state}
+@b{(a)} @code{menubar},@*
+@b{(b)} @code{popup-menu-button}, @b{(c)} @code{menu},
+@b{(d)} @code{scrolling-menu}, @b{(e)} @code{text-button-panel},@*
+@b{(f)} @code{x-button-panel}, @b{(g)} @code{radio-button-panel},
+@b{(h)} @code{option-button},@*
+@b{(i)} @code{motif-menubar}, @b{(j)} @code{motif-menu},
+@b{(k)} @code{motif-scrolling-menu},@*
+@b{(l)} @code{motif-text-button-panel},
+@b{(m)} @code{motif-check-button-panel},@*
+@b{(n)} @code{motif-radio-button-panel},
+@b{(o)} @code{motif-option-button} in its unselected and selected state}
 @anchor{menu-group}
 @end float
 
 
-@subsubheading Gadgets used to choose items from a list of possible choices
-
+@itemize
+@b{Gadgets used to choose items from a list of possible choices}
 @vtable @code
-@item menubar
-A pull-down menu (@ref{menubar})
+@code{menubar} - A pull-down menu (p. @ref{menubar})
 
-@item popup-menu-button
-A button which pops up a menu when pressed. The
+@code{popup-menu-button} - A button which pops up a menu when pressed. The
 appearance of the button does not change with the selection.
-(@ref{popup-menu-button})
+(p. @ref{popup-menu-button})
 
-@item menu
- Vertical menu, single selection (@ref{menu})
+@code{menu} -  Vertical menu, single selection (p. @ref{menu})
 
-@item scrolling-menu
- A menu with a scrollbar on one side, which allows a
+@code{scrolling-menu} -  A menu with a scrollbar on one side, which allows a
 subset of all items in the menu to be viewed. (single or multiple selection)
-(@ref{scrolling-menu})
+(p. @ref{scrolling-menu})
 
-@item text-buttons
- A panel of rectangular buttons, each with a choice
+@code{text-buttons} -  A panel of rectangular buttons, each with a choice
 centered inside the button. As an option, the currently selected choice
-may appear in inverse video. (single selection) (@ref{buttons} and
+may appear in inverse video. (single selection) (p. @ref{buttons} and
 @ref{text-buttons})
 
-@item x-buttons
- A panel of square buttons, each with a choice beside the
+@code{x-buttons} -  A panel of square buttons, each with a choice beside the
 button. An "X" appears inside each currently selected button. (multiple
-selection)  (@ref{buttons} and @ref{x-buttons})
+selection)  (p. @ref{buttons} and @ref{x-buttons})
 
-@item radio-buttons
- A panel of circular buttons, each with a choice beside
+@code{radio-buttons} -  A panel of circular buttons, each with a choice beside
 the button. A black circle appears inside the currently selected button. 
-(single selection)  (@ref{buttons} and @ref{radio-buttons})
+(single selection)  (p. @ref{buttons} and @ref{radio-buttons})
 
-@item option-button
-A button which pops up a menu when pressed. Selection of
+@code{option-button} - A button which pops up a menu when pressed. Selection of
 a choice from the menu causes that item to appear as the new label of the
-button. (@ref{option-button})
+button. (p. @ref{option-button})
 
-@item motif-menubar
-A pull-down menu. (@ref{motif-menubar})
+@code{motif-menubar} - A pull-down menu. (p. @ref{motif-menubar})
 
-@item motif-menu
-Vertical menu, single selection  (@ref{motif-menu})
+@code{motif-menu} - Vertical menu, single selection  (p. @ref{motif-menu})
 
-@item motif-scrolling-menu
-A menu with an attached scrollbar.
-(@ref{motif-scrolling-menu})
+@code{motif-scrolling-menu} - A menu with an attached scrollbar.
+(p. @ref{motif-scrolling-menu})
 
-@item motif-text-buttons
-A panel of rectangular buttons, each with a
+@code{motif-text-buttons} - A panel of rectangular buttons, each with a
 choice appearing inside the button. (single selection)
-(@ref{motif-buttons} and @ref{motif-text-buttons})
+(p. @ref{motif-buttons} and @ref{motif-text-buttons})
 
-@item motif-check-buttons
-A panel of square buttons, each with a
+@code{motif-check-buttons} - A panel of square buttons, each with a
 choice beside the buttons. (multiple selection)
-(@ref{motif-buttons} and @ref{motif-check-buttons})
+(p. @ref{motif-buttons} and @ref{motif-check-buttons})
 
-@item motif-radio-buttons
-A panel of diamond buttons, each with a
+@code{motif-radio-buttons} - A panel of diamond buttons, each with a
 choice beside the button. (single selection)
-(@ref{motif-buttons} and @ref{motif-radio-buttons})
+(p. @ref{motif-buttons} and @ref{motif-radio-buttons})
 
-@item motif-option-button
-A button which pops up a menu when pressed.
+@code{motif-option-button} - A button which pops up a menu when pressed.
 Selection of a choice from the menu causes that item to appear as the new
-label of the button. (@ref{motif-option-button})
+label of the button. (p. @ref{motif-option-button})
 
 @end vtable
+@end itemize
+
 
 
 
 @float Figure, fig:ex803
-@center @image{text-groups, 5.5in}
-@caption{Text gadgets. (a) @code{labeled-box},
-(b) @code{scrolling-labeled-box}, (c) @code{scrolling-input-string},
-(d) @code{motif-scrolling-labeled-box}, (e) @code{multifont-gadget}}
+@center @image{text-group-pix, 5.5in}
+@center @image{multifont-gadget-pix, 5.5in}
+@caption{Text gadgets. @b{(a)} @code{labeled-box},
+@b{(b)} @code{scrolling-labeled-box},@*@b{(c)} @code{scrolling-input-string},
+@b{(d)} @code{motif-scrolling-labeled-box},@*@b{(e)} @code{multifont-gadget}}
 @anchor{text-group}
 @end float
 
-
-@subsubheading Gadgets used to handle text input
-
+@itemize
+@b{Gadgets used to handle text input}
 @vtable @code
-@item labeled-box
-A framed text object that may be edited. As the string
-gets longer, the frame expands. (@ref{labeled-box})
+@code{labeled-box} -  A framed text object that may be edited. As the string
+gets longer, the frame expands. (p. @ref{labeled-box})
 
-@item scrolling-labeled-box
-A scrolling input string in a box with a label.
+@code{scrolling-labeled-box} - A scrolling input string in a box with a label.
 The frame stays fixed, and the string scrolls.
-(@ref{scrolling-labeled-box})
+(p. @ref{scrolling-labeled-box})
 
-@item scrolling-input-string
-Input a text string, but using a fixed width
+@code{scrolling-input-string} - Input a text string, but using a fixed width
 area and scroll the string horizontally if necessary.
-(@ref{scrolling-input-string})
+(p. @ref{scrolling-input-string})
 
-@item motif-scrolling-labeled-box
-A labeled box with text inside that may
-be edited. (@ref{motif-scrolling-labeled-box})
+@code{motif-scrolling-labeled-box} - A labeled box with text inside that may
+be edited. (p. @ref{motif-scrolling-labeled-box})
 
-@item multifont-gadget
-A text editing gadget that includes word wrap,
+@code{multifont-gadget} - A text editing gadget that includes word wrap,
 text selection, and many functions that allow manipulation of the
 text. This gadget is discussed in the Opal chapter. 
 
 @end vtable
+@end itemize
+
 
 
 @float Figure, fig:ex804
-@center @image{dialog-box, 3.5in}
-@shortcaption{Garnet dialog boxes.}
-@caption{garnet dialog boxes. (a) @code{motif-save-gadget},
-(b) @code{error-gadget}, (c) @code{motif-query-gadget},
-(d) @code{motif-prop-sheet-with-ok}}
+@center @image{dialog-box-pix, 5.5in}
+@caption{Garnet dialog boxes. @b{(a)} @code{motif-save-gadget},
+@b{(b)} @code{error-gadget},@*@b{(c)} @code{motif-query-gadget},
+@b{(d)} @code{motif-prop-sheet-with-OK}}
+@anchor{db-group}
 @end float
 
-@subsubheading Dialog boxes for reading and writing to files (the @code{motif-save-gadget} is @
-               pictured in @ref{fig:ex804})
-               
+@itemize
+@b{Dialog boxes for reading and writing to files} (the @code{motif-save-gadget} is
+pictured in figure @ref{db-group})
 @vtable @code
-@item save-gadget
-Saves a file in a directory whose contents are displayed
-in a scrolling menu. (@xref{Save Gadget})
+@code{save-gadget} - Saves a file in a directory whose contents are displayed
+in a scrolling menu. (p. @ref{save-gadget})
 
-@item load-gadget
-Loads a file from a directory whose contents are displayed
-in a scrolling menu. (@xref{Load Gadget})
+@code{load-gadget} - Loads a file from a directory whose contents are displayed
+in a scrolling menu. (p. @ref{load-gadget})
 
-@item motif-save-gadget
-Saves a file in a directory whose contents are
-displayed in a Motif style scrolling menu. (@xref{Motif Save Gadget})
+@code{motif-save-gadget} - Saves a file in a directory whose contents are
+displayed in a Motif style scrolling menu. (p. @ref{motif-save-gadget})
 
-@item motif-load-gadget
-Loads a file from a directory whose contents are
-displayed in a Motif style scrolling menu. (@xref{Motif Load Gadget})
+@code{motif-load-gadget} - Loads a file from a directory whose contents are
+displayed in a Motif style scrolling menu. (p. @ref{motif-load-gadget})
 @end vtable
+@end itemize
 
-
-@subsubheading Dialog boxes for reporting errors to the user and asking for user @
-               input (the @code{error-gadget} and @code{motif-query-gadget} are pictured @
-               in @ref{fig:ex804}).
-               
+@itemize
+@b{Dialog boxes for reporting errors to the user and asking for user
+input}  (the @code{error-gadget} and @code{motif-query-gadget} are pictured
+in figure @ref{db-group}).
 @vtable @code
-@item error-gadget
-Used to display error messages in a window with an
-"OK" button (@ref{error-gadget})
+@code{error-gadget} - Used to display error messages in a window with an
+"OK" button (p. @ref{error-gadget})
 
-@item query-gadget
-A dialog box like the @code{error-gadget}, but with
+@code{query-gadget} - A dialog box like the @code{error-gadget}, but with
 multiple buttons and the ability to return values.
-(@ref{query-gadget})
+(p. @ref{query-gadget})
 
-@item motif-error-gadget
-A dialog box used to display error messages
+@code{motif-error-gadget} - A dialog box used to display error messages
 with an "OK" button in the Motif style.
-(@ref{motif-error-gadget})
+(p. @ref{motif-error-gadget})
 
 
-@item motif-query-gadget
-A Motif style dialog box with multiple buttons.
-(@ref{motif-query-gadget})
+@code{motif-query-gadget} - A Motif style dialog box with multiple buttons.
+(p. @ref{motif-query-gadget})
 
 @end vtable
+@end itemize
 
-@subsubheading Property sheet gadgets (a Motif property sheet is pictured in @ref{fig:ex804})
 
+@itemize
+@b{Property sheet gadgets} (a Motif property sheet is pictured in figure
+@ref{db-group})
 @vtable @code
-@item prop-sheet
-Displays a set of labels and values and allows the values
+@code{prop-sheet} - Displays a set of labels and values and allows the values
 to be edited. This gadget can be easily displayed in its own window.
-(@ref{propertysheets})
+(p. @ref{propertysheets})
 
-@item prop-sheet-for-obj
-A property sheet designed to display the slots
-in a Garnet object. (@ref{propsheetforobj})
+@code{prop-sheet-for-obj} - A property sheet designed to display the slots
+in a Garnet object. (p. @ref{propsheetforobj})
 
-@item prop-sheet-with-ok
-a property sheet with OK/Cancel buttons.
-(@ref{propsheetwithok})
+@code{prop-sheet-with-OK} - A property sheet with OK-Cancel buttons.
+(p. @ref{propsheetwithok})
 
-@item prop-sheet-for-obj-with-ok
-a property sheet designed to display the
+@code{prop-sheet-for-obj-with-OK} - A property sheet designed to display the
 slots in a Garnet object with attached OK-Cancel buttons.
-(@ref{propsheetforobjwithok})
+(p. @ref{propsheetforobjwithok})
 
-@item motif-prop-sheet-with-ok
-a property sheet with OK-Cancel buttons
-in the Motif style. (@ref{motif-prop-sheets})
+@code{motif-prop-sheet-with-OK} - A property sheet with OK-Cancel buttons
+in the Motif style. (p. @ref{motif-prop-sheets})
 
-@item motif-propt-sheet-for-obj-with-ok
-a motif style property sheet designed
+@code{motif-propt-sheet-for-obj-with-OK} - A Motif style property sheet designed
 to display the slots in a Garnet object with attached OK-Cancel buttons.
-(@ref{motif-prop-sheet-for-obj-with-ok})
+(p. @ref{motif-prop-sheet-for-obj-with-ok})
 @end vtable
 
 
-@subsubheading Scrolling windows
-
+@b{Scrolling windows}
 @vtable @code
-@item scrolling-window
-Supports a scrollable window
-(@ref{scrolling-windows})
+@code{scrolling-window} - Supports a scrollable window
+(p. @ref{scrolling-windows})
 
-@item scrolling-window-with-bars
-Scrolling window complete with scrollbars.
-(@ref{scrolling-windows})
 
-@item motif-scrolling-window-with-bars
-Motif style scrolling window
-(@ref{motif-scrolling-window})
+@code{scrolling-window-with-bars} - Scrolling window complete with scrollbars.
+(p. @ref{scrolling-windows})
+
+@code{motif-scrolling-window-with-bars} - Motif style scrolling window
+(p. @ref{motif-scrolling-window})
 @end vtable
 
-@subsubheading Special Gadgets
 
+@b{Special gadgets}
 @vtable @code
-@item arrow-line
-A line with an arrowhead at one end
-(@ref{arrow-line})
+@code{arrow-line} - A line with an arrowhead at one end
+(p. @ref{arrow-line})
 
-@item double-arrow-line
-A line with arrowheads at both ends
-(@ref{double-arrow-line})
+@code{double-arrow-line} - A line with arrowheads at both ends
+(p. @ref{double-arrow-line})
 
-@item browser-gadget
-Used to examine structures and hierarchies
-(@ref{browser-gadget})
+@code{browser-gadget} - Used to examine structures and hierarchies
+(p. @ref{browser-gadget})
 
-@item graphics-selection
-Bounding boxes and
+@code{graphics-selection} - Bounding boxes and
 interactors to move and change the size of other graphical objects.
-(@ref{graphics-selection})
+(p. @ref{graphics-selection})
 
-@item multi-graphics-selection
-Same as @code{graphics-selection}, but for
-multiple objects. (@ref{multi-graphics-selection})
+@code{multi-graphics-selection} - Same as @code{graphics-selection}, but for
+multiple objects. (p. @ref{multi-gs})
 
-@item polyline-creator
-For creating and editing polylines.
-(@ref{polyline-creator})
+@code{polyline-creator} - For creating and editing polylines.
+(p. @ref{polyline-creator})
 
-@item MouseLine
-nd @code{MouseLinePopup} - A gadget that pops up a "help" string,
+@code{MouseLine} and @code{MouseLinePopup} - A gadget that pops up a "help" string,
 informing the user about the object that the mouse is held over.
 
-@item standard-edit
-A module of predefined "cut" and "paste" procedures,
-and many other common editing functions. (@ref{standardeditsec})
+@code{standard-edit} - A module of predefined "cut" and "paste" procedures,
+and many other common editing functions. (p. @ref{standardeditsec})
 @end vtable
-
+@end itemize
 
 @cindex{customization}
 
@@ -373,9 +348,6 @@ however, choose to leave many of the default values unchanged, while
 modifying only those parameters that integrate the object into the
 larger user interface.
 
-@cindex{slots}
-@cindex{inheritance}
-
 The location, size, functionality, etc., of a gadget is determined by
 the values in each of its slots. When instances of gadgets are
 created, the instances inherit all of the slots and slot values from
@@ -386,6 +358,8 @@ overridden when instances are created.@footnote{See the KR chapter for a
 more detailed discussion of inheritance.}  The designer may also add
 new slots not defined in the gadget prototype for use by special
 applications in the larger interface.
+@cindex{slots}
+@cindex{inheritance}
 Slot values may be changed after the instances are
 created by using the KR function @code{s-value}.
 
@@ -395,47 +369,43 @@ created by using the KR function @code{s-value}.
 @cindex{garnet-gadgets package}
 @cindex{gg nickname}
 @cindex{use-package}
-The gadget objects reside in the @code{:garnet-gadgets} package, which
-has the nickname @code{:gg}. We recommend that programmers explicitly
+The gadget objects reside in the @code{GARNET-GADGETS} package, which
+has the nickname "GG". We recommend that programmers explicitly
 reference the name of the package when creating instances of the 
 gadgets, as in @code{garnet-gadgets:v-scroll-bar} or @code{gg:v-scroll-bar}.
 However, the package name may be dropped if the line @code{(use-package
-:garnet-gadgets)} is executed before referring to gadget objects.
+"GARNET-GADGETS")} is executed before referring to gadget objects.
 
 Before creating instances of gadget objects, a set of component
-modules must be loaded. Garnet using ASDF to load all stystem modues
-along with any external system dependancies. All gadgets in the system
-are loaded with the rest of the Garnet system and no additional
-actions are needed to make them available
+modules must be loaded. These modules are loaded in the correct order
+when the "-loader" files corresponding to the desired gadgets are used
+(see Chapter @ref{accessing}).
+@cindex{loader files}
 
-Since each top-level object is exported from the @code{:garnet-gadgets}
+Since each top-level object is exported from the @code{GARNET-GADGETS}
 package, creating instances of gadget objects is as easy as
 instantiating any other Garnet objects. To use a gadget, an instance
 of the prototype must be defined and added to an interactor window.
 The following lines will display a vertical scrollbar in a window:
-
-@smallexample
-(create-instance 'my-win inter:interactor-window
+@example
+(create-instance 'MY-WIN inter:interactor-window
    (:left 0) (:top 0) (:width 300) (:height 500))
-(create-instance 'my-agg opal:aggregate)
+(create-instance 'MY-AGG opal:aggregate)
 (s-value my-win :aggregate my-agg)
-(create-instance 'my-scroll-bar garnet-gadgets:v-scroll-bar)
+(create-instance 'MY-SCROLL-BAR garnet-gadgets:v-scroll-bar)
 (opal:add-component my-agg my-scroll-bar)
 (opal:update my-win)
-@end smallexample
-
+@end example
 @cindex{v-scroll-bar}
-@cindex{displaying objects}
-
-The first two instructions create an interactor window named
-@code{my-win} and an aggregate named @code{my-agg}. The third
-instruction sets the @code{:aggregate} slot of @code{my-win} to
-@code{my-agg}, so that all graphical objects attached to @code{my-agg}
-will be shown in @code{my-win}. The next two instructions create an
-instance of the @code{v-scroll-bar} object named @code{my-scroll-bar}
-and add it as a component of @code{my-agg}. The last instruction
-causes @code{my-win} to become visible with @code{my-scroll-bar}
-inside.
+@cindex{displaying objects} The first two instructions create an
+interactor window named @code{my-win} and an aggregate named
+@code{my-agg}. The third instruction sets the @code{:aggregate} slot of
+@code{my-win} to @code{my-agg}, so that all graphical objects attached to
+@code{my-agg} will be shown in @code{my-win}. The next two instructions
+create an instance of the @code{v-scroll-bar} object named
+@code{my-scroll-bar} and add it as a component of @code{my-agg}. The last
+instruction causes @code{my-win} to become visible with
+@code{my-scroll-bar} inside.
 
 In most cases, the use of a gadget will follow the same form as the
 preceding example. The important difference will be in the
@@ -447,40 +417,35 @@ such a customization of the vertical scrollbar.
 Suppose that we would like to create a vertical scrollbar whose
 values span the interval [0..30], with its upper-left coordinate at
 (25,50). This vertical scrollbar may be created by:
-
-@smallexample
+@example
 (create-instance 'CUSTOM-BAR garnet-gadgets:v-scroll-bar
    (:left 25)
    (:top 50)
    (:val-1 0)
    (:val-2 30))
-@end smallexample
-
-@cindex{customization}
-
-This instruction creates an object called @code{custom-bar} which is an
-instance of @code{v-scroll-bar}. The vertical scrollbar @code{custom-bar} has
-inherited all of the slots that were declared in the
-@code{v-scroll-bar} prototype along with their default values, except
-for the coordinate and range values which have been specified in this
-schema definition (see section @ref{scroll-bars} for a list of
-customizable slots in the scrollbar objects).
+@end example
+@cindex{customization} This instruction creates an object called
+CUSTOM-BAR which is an instance of @code{v-scroll-bar}. The
+vertical scrollbar CUSTOM-BAR has inherited all of the slots
+that were declared in the @code{v-scroll-bar} prototype along with their
+default values, except for the coordinate and range values which have
+been specified in this schema definition (see section
+@ref{scroll-bars} for a list of customizable slots in the scrollbar
+objects).
 
 
 @node Application Interface
 @subsection Application Interface
 
 There are several ways that the gadgets can interface with your
-application. This section describes several ways that you can get the
+application. This section describes several ways the you can get the
 gadgets to "do something" to your application.
+
+@node The @code{:value} slot
+@subsubsection The @code{:value} slot
 
 @cindex{value slot}
 @anchor{value-slot}
-
-@node The @code{:value} Slot
-@subsubsection The @code{:value} Slot
-
-
 In most gadgets, there is a top-level @code{:value}
 slot. This slot is updated automatically after a user changes the
 value or position of some part of the gadget. This is therefore the
@@ -547,9 +512,9 @@ selects a menu item, respectively.
 
 The function must take two parameters: the top-level gadget itself and the
 value of the top-level @code{:value} slot:
-@smallexample
+@example
 (lambda (gadget-object value))
-@end smallexample
+@end example
 In x-buttons, the parameter @code{value} will be a
 list of strings. The scrolling menu sends the menu item (a Garnet
 schema) on which the user just clicked as its @code{value}. Other
@@ -601,9 +566,9 @@ selection of a button. If the @code{:items} slot contained the list
 @code{'(("Cut" My-Cut) ("Paste" My-Paste))}, then the function
 @code{My-Cut} would be executed when the button labeled "Cut" becomes
 selected. The designer must define these functions with two parameters:
-@smallexample
+@example
 (lambda (gadget-object item-string))
-@end smallexample
+@end example
 The @emph{gadget-object} is the top-level gadget
 (such as a @code{text-button-panel}) and the @emph{item-string} is the
 string (or atom) of the item that was just selected.
@@ -637,7 +602,7 @@ Both ways to change items are shown in the example below.
 
 The various methods for changing items are
 
-@smallexample
+@example
 opal:Add-Item @i{gadget item} [[:where] @i{position[locator]} [:key @i{function-name}]]@ref{method}
 
 opal:Remove-Item @i{gadget} [@i{item} [:key @i{function-name}]]@ref{method}
@@ -645,7 +610,7 @@ opal:Remove-Item @i{gadget} [@i{item} [:key @i{function-name}]]@ref{method}
 opal:Remove-Nth-Item @emph{gadget} @emph{n}@ref{method}
 
 opal:Change-Item @emph{gadget item n}@ref{method}
-@end smallexample
+@end example
 
 These methods are described in the Aggregadgets chapter.
 @code{Add-item} will add @emph{item} to the @code{:items} list of @emph{gadget}, and
@@ -659,13 +624,13 @@ item maintenance functions). The documentation for the @code{menubar} and
 
 For example, consider adding an item to the X-BUTTONS-OBJ in the
 @code{x-button-panel} demo.
-@smallexample
+@example
 @emph{; Use opal:add-item in one step}
 (opal:add-item gg:X-BUTTONS-OBJ "newitem-1")
 
 @emph{; Use s-value (directly or indirectly)}
 (push "newitem-2" (gv gg:X-BUTTONS-OBJ :items))
-@end smallexample
+@end example
 
 The @code{push} function uses @code{s-value} indirectly.
 @code{S-value} may also be used explicitly. After changing the @code{:items} list
@@ -705,12 +670,12 @@ In addition to using the special T value in a @code{:constant} list,
 you can selectively declare slots constant by listing them
 explicitly (e.g., @code{(:constant '(:left :top))}).
 You can also use the @code{:except} keyword, as in the following schema:
-@smallexample
+@example
 (create-instance NIL gg:motif-radio-button-panel
    (:constant '(T :except :active-p))
    (:left 10)(:top 30)
    (:items '("Start" "Pause" "Quit")))
-@end smallexample
+@end example
 In this example, the user declares constant all of the slots in the
 @code{:maybe-constant} list, with the exception of @code{:active-p}. This
 allows the value of the @code{:active-p} slot to change, and retains all
@@ -893,10 +858,10 @@ To load the entire Gadget Set, execute
 many gadgets, and you will only need a few of them!}  To load
 particular objects, such as the @code{v-slider} and @code{menu} gadgets,
 load the specific loader files:
-@smallexample
+@example
 (garnet-load "gadgets:v-slider-loader")
 (garnet-load "gadgets:menu-loader")
-@end smallexample
+@end example
 For a discussion of the @code{garnet-load} function, see the Overview at the
 beginning of this reference chapter.
 
@@ -960,7 +925,7 @@ default values for the gadget object.
 @cindex{h-scroll-bar}
 @cindex{scroll-bars}
 
-@smallexample
+@example
 (create-instance 'gg:V-Scroll-Bar opal:aggregadget
    (:maybe-constant '(:left :top :height :min-width :val-1 :val-2 :scr-trill-p
                       :page-trill-p :indicator-text-p :page-incr :scr-incr
@@ -984,10 +949,10 @@ default values for the gadget object.
    (:format-string "~a")
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
-@smallexample
+@example
 (create-instance 'gg:H-Scroll-Bar opal:aggregadget
    (:maybe-constant '(:left :top :width :min-height :val-1 :val-2 :scr-trill-p
                       :page-trill-p :indicator-text-p :page-incr :scr-incr
@@ -1010,10 +975,10 @@ default values for the gadget object.
    (:format-string "~a")
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @float Figure, fig:ex807
-@center @image{scroll-pix, 3.0in}
+@center @image{scroll-pix, 5.5in}
 @caption{Vertical and horizontal scrollbars}
 @end float
 
@@ -1101,7 +1066,7 @@ in the slot @code{:indicator-font}.
 @cindex{h-slider}
 @cindex{sliders}
 
-@smallexample
+@example
 (create-instance 'gg:V-Slider opal:aggregadget
    (:maybe-constant '(:left :top :height :shaft-width :scr-incr :page-incr :val-1 :val-2
                       :num-marks :scr-trill-p :page-trill-p :tic-marks-p :enumerate-p
@@ -1129,10 +1094,10 @@ in the slot @code{:indicator-font}.
    (:value (o-formula ...))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
-@smallexample
+@example
 (create-instance 'gg:H-Slider opal:aggregadget
    (:maybe-constant '(:left :top :width :shaft-height :scr-incr :page-incr :val-1 :val-2
                       :num-marks :tic-marks-p :enumerate-p :scr-trill-p :page-trill-p
@@ -1160,7 +1125,7 @@ in the slot @code{:indicator-font}.
    (:value (o-formula ...))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @center @image{slider-pix, 5.5in}
 
@@ -1226,7 +1191,7 @@ The slots should each contain a string that can be passed to the lisp function
 @anchor{trill-device}
 @cindex{trill-device}
 @cindex{Number input}
-@smallexample
+@example
 (create-instance 'gg:Trill-Device opal:aggregadget
    (:maybe-constant '(:left :top :min-frame-width :min-height :scr-incr :page-incr
                       :val-1 :val-2 :scr-trill-p :page-trill-p :scroll-p
@@ -1247,7 +1212,7 @@ The slots should each contain a string that can be passed to the lisp function
    (:format-string "~a")
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @center @image{trill-pix, 5.5in}
 
@@ -1288,11 +1253,11 @@ This is mainly useful for floating point numbers. This slot takes a
 string that can be passed to the lisp function @code{format}. The
 default string is @code{"~a"}. For example:
 
-@smallexample
+@example
 (create-instance 'TRILL garnet-gadgets:trill-device
    (:left 35)(:top 70)(:val-1 0.0)(:val-2 1.0)(:scr-incr 0.01)
    (:page-incr 0.1)(:format-string "~4,2F"))
-@end smallexample
+@end example
 
 
 @node Gauge
@@ -1305,7 +1270,7 @@ default string is @code{"~a"}. For example:
 
 @cindex{gauge}
 
-@smallexample
+@example
 (create-instance 'gg:Gauge opal:aggregadget
    (:maybe-constant '(:left :top :width :polygon-needle-p :int-feedback-p
 		      :title :title-font :value-font :enum-font :num-marks
@@ -1332,7 +1297,7 @@ default string is @code{"~a"}. For example:
    (:enum-format-string "~a")  @emph{; How to print the tic-mark values}
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 The loader file for the @code{gauge} is "gauge-loader".
 
@@ -1486,7 +1451,7 @@ to be executed each time it is pressed.
 
 @anchor{text-buttons}
 @cindex{text-button}
-@smallexample
+@example
 (create-instance 'gg:Text-Button opal:aggregadget
    (:maybe-constant '(:left :top :shadow-offset :text-offset :gray-width
 		      :string :toggle-p :font :final-feedback-p :visible))
@@ -1503,11 +1468,11 @@ to be executed each time it is pressed.
    (:selected (o-formula (gvl :value)))   ; @emph{ This slot is set by the interactor}
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
 @cindex{text-button-panel}
-@smallexample
+@example
 (create-instance 'gg:Text-Button-Panel opal:aggregadget
    (:maybe-constant '(:left :top :direction :v-spacing :h-spacing :h-align
 		      :fixed-width-p :fixed-width-size :fixed-height-p
@@ -1527,7 +1492,7 @@ to be executed each time it is pressed.
    (:value (o-formula (gvl :value-obj :string)))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    <All customizable slots of an aggrelist>)
-@end smallexample
+@end example
 
 @sp 1
 The loader file for the @code{text-button} and
@@ -1549,7 +1514,7 @@ when specified.
 
 @anchor{x-buttons}
 @cindex{x-button}
-@smallexample
+@example
 (create-instance 'gg:X-Button opal:aggregadget
    (:maybe-constant '(:left :top :button-width :button-height
 		      :shadow-offset :text-offset :gray-width
@@ -1569,11 +1534,11 @@ when specified.
    (:selected (o-formula (gvl :value))) @emph{; Set by interactor}
    (:selection-function NIL)            @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
 @cindex{x-button-panel}
-@smallexample
+@example
 (create-instance 'gg:X-Button-Panel opal:aggregadget
    (:maybe-constant '(:left :top :direction :v-spacing :h-spacing :h-align
 		      :fixed-width-p :fixed-width-size :fixed-height-p :fixed-height-size
@@ -1596,7 +1561,7 @@ when specified.
 			      (gvl :value-obj))))
    (:selection-function NIL)  @emph{; (lambda (gadget value))}
    <All customizable slots of an aggrelist>)
-@end smallexample
+@end example
 
 @sp 1
 The loader file for the @code{x-button} and @code{x-button-panel} is
@@ -1632,7 +1597,7 @@ these dimensions.
 
 @anchor{radio-buttons}
 @cindex{radio-button}
-@smallexample
+@example
 (create-instance 'gg:Radio-Button opal:aggregadget
    (:maybe-constant '(:left :top :button-diameter :shadow-offset :text-offset
                       :gray-width :string :text-on-left-p :toggle-p :font :visible))
@@ -1647,11 +1612,11 @@ these dimensions.
    (:selected (o-formula (gvl :value))) @emph{; Set by interactor}
    (:selection-function NIL)            @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
 @cindex{radio-button-panel}
-@smallexample
+@example
 (create-instance 'gg:Radio-Button-Panel opal:aggregadget
    (:maybe-constant '(:left :top :direction :v-spacing :h-spacing :h-align
                       :fixed-width-p :fixed-width-size :fixed-height-p :fixed-height-size
@@ -1672,7 +1637,7 @@ these dimensions.
    (:value (o-formula (gvl :value-obj :string)))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    <All customizable slots of an aggrelist>)
-@end smallexample
+@end example
 
 @sp 1
 The loader file for the @code{radio-button} and @code{radio-button-panel} is
@@ -1692,7 +1657,7 @@ inverse circle indicating the currently selected button. A
 @anchor{option-button}
 @cindex{option-button}
 
-@smallexample
+@example
 (create-instance 'gg:Option-Button opal:aggregadget
   (:maybe-constant '(:left :top :text-offset :label :button-offset :button-shadow-offset
                      :items :initial-item :button-font :label-font :button-fixed-width-p
@@ -1713,7 +1678,7 @@ inverse circle indicating the currently selected button. A
   (:keep-menu-in-screen-p T)
   (:selection-function NIL)   @emph{; (lambda (gadget value))}
   ...)
-@end smallexample
+@end example
 
 @float Figure, fig:ex809
 @center @image{option-button-normal, 5.5in}
@@ -1785,7 +1750,7 @@ slot will be disregarded.
 @cindex{popup-menu-button}
 @center @image{popupmenubutton, 5.5in}
 
-@smallexample
+@example
 (create-instance 'gg:Popup-Menu-Button gg:text-button
   (:left 0)
   (:top 0)
@@ -1809,7 +1774,7 @@ slot will be disregarded.
   (:value (o-formula ...))
   (:position :below)
   (:keep-menu-in-screen-p T)
-@end smallexample
+@end example
 
 The loader file for the @code{popup-menu-button} is
 @code{popup-menu-button-loader}, and you can see a demo by executing
@@ -1883,7 +1848,7 @@ screen edges.
 
 @anchor{menu}
 @cindex{Menu}
-@smallexample
+@example
 (create-instance 'gg:Menu opal:aggregadget
    (:maybe-constant '(:left :top :v-spacing :h-align :shadow-offset
 		      :text-offset :title :title-font :items :item-font
@@ -1911,7 +1876,7 @@ screen edges.
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    (:value-obj NIL)
    (:value (o-formula (gvl :value-obj :string))))
-@end smallexample
+@end example
 
 
 @center @image{menu-pix, 5.5in}
@@ -1958,14 +1923,14 @@ changed by the designer. A function defined in
 an item pair) and returns a string corresponding to that item for
 display in the menu. The default function for this slot is
 
-@smallexample
+@example
 (lambda (item)
   (if item
       (if (stringp item)
 	  item
 	  (string-capitalize (string-trim ":" item)))
       ""))
-@end smallexample
+@end example
 
 This function takes an item and returns it if it is a string, or
 coerces it into a string if it was an atom. See section @ref{sm-ex}
@@ -1979,7 +1944,7 @@ schemas.
 @cindex{Scrolling menu}
 @center @image{scrolling-menu-pix, 5.5in}
 
-@smallexample
+@example
 
 (create-instance 'gg:Scrolling-Menu opal:aggregadget
    (:maybe-constant '(:left :top :scroll-on-left-p :min-scroll-bar-width :scr-trill-p
@@ -2029,7 +1994,7 @@ schemas.
    (:menu-selection-function NIL)
    (:selected-ranks NIL)
    (:value (o-formula ...)))
-@end smallexample
+@end example
 
 The loader file for the @code{scrolling-menu} gadget is "scrolling-menu-loader".
 
@@ -2130,21 +2095,21 @@ necessarily visible) in the scrolling menu will be selected.
 A function defined in @code{:menu-selection-function} will be executed
 whenever the user selects an item from the menu. This function takes
 two parameters,
-@smallexample
+@example
 (lambda (gadget scrolling-menu-item))
-@end smallexample
+@end example
  where @emph{gadget} is the programmer's instance of
 the @code{scrolling-menu} and @emph{scrolling-menu-item} is the object just
 selected by the user. The item associated with the user's selection
 can be obtained through the @code{:item} slot of the
 @emph{scrolling-menu-item}:
-@smallexample
+@example
 (gv scrolling-menu-item :item) @emph{--> The item just selected}
-@end smallexample
+@end example
 
 
-@node @code{menubar}
-@subsection @code{menubar}
+@node Menubar
+@subsection Menubar
 
 @anchor{menubar}
 @cindex{pull-down menus}
@@ -2152,7 +2117,7 @@ can be obtained through the @code{:item} slot of the
 @cindex{bar-item}
 @cindex{submenu-item}
 
-@smallexample
+@example
 (create-instance 'gg:Menubar opal:aggrelist
    (:left 0)(:top 0)
    (:items NIL)
@@ -2160,7 +2125,7 @@ can be obtained through the @code{:item} slot of the
    (:item-font (create-instance NIL opal:font (:face :italic)))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @float Figure, fig:ex810
 @center @image{menubar-pix, 5.5in}
@@ -2230,11 +2195,11 @@ called, then the submenu-item function is called, and finally the
 
 The @code{:items} slot of the @code{menubar} is a complicated list with the
 following format:
-@smallexample
+@example
 (:items '(("m1" m1func (("m1,1" [m1,1func])...("m1,N" [m1,Nfunc])))
           ("m2" m2func (("m2,1" [m2,1func])...("m2,N" [m2,Nfunc])))
           ...))
-@end smallexample
+@end example
 where @emph{"mN"} is a string or atom that is the title of a menu (atoms 
 appear as capitalized strings in the submenu titles),
 @emph{"mX,Y"}
@@ -2259,7 +2224,7 @@ in inverse video, and the @code{:item-font} is the font for the
 @subsubheading An example
 
 @float Figure, fig:ex811
-@smallexample
+@example
 
 (create-instance 'WIN inter:interactor-window
    (:left 750)(:top 80)(:width 200)(:height 200)
@@ -2285,7 +2250,7 @@ in inverse video, and the @code{:item-font} is the font for the
 (opal:add-component TOP-AGG DEMO-MENUBAR)
 (opal:update win)
 
-@end smallexample
+@end example
 @caption{The code to generate the picture in Figure @ref{menubar-pix-1}}
 @anchor{menubar-code-1}
 @end float
@@ -2318,7 +2283,7 @@ is @code{#'car} (see examples below).
 
 For example, each of the following lines will add a new submenu to
 DEMO-MENUBAR in Figure @ref{menubar-code-1}:
-@smallexample
+@example
 (opal:add-item DEMO-MENUBAR '("font-name" NIL (("courier") ("times") ("geneva"))))
 (opal:add-item DEMO-MENUBAR
                '("other-fonts" NIL (("helvetica") ("chicago")))
@@ -2326,13 +2291,13 @@ DEMO-MENUBAR in Figure @ref{menubar-code-1}:
 (opal:add-item DEMO-MENUBAR
                '("symbols" NIL (("mathematical") ("greek")))
 	       :before "face" :key #'car)
-@end smallexample
+@end example
 
 Individual submenu-items can be added to a @code{menubar} with the following
 function:
-@smallexample
+@example
 add-submenu-item @i{menubar submenu-title submenu-item} [[:where] @i{position [locator]} [:key @i{index-function}]])
-@end smallexample
+@end example
 This function adds the new @emph{submenu-item} to the menubar, and places it in
 the submenu named by @emph{submenu-title}. The new @emph{submenu-item} description
 should be a list containing a string (or atom) and an optional function
@@ -2340,11 +2305,11 @@ should be a list containing a string (or atom) and an optional function
 
 For example, the following lines will add new submenu-items to the
 DEMO-MENUBAR in Figure @ref{menubar-code-1}:
-@smallexample
+@example
 (garnet-gadgets:add-submenu-item DEMO-MENUBAR "face" '("outline"))
 (garnet-gadgets:add-submenu-item DEMO-MENUBAR "size" '("very small")
                                               :before "small" :key #'car)
-@end smallexample
+@end example
 As shown in the second example, the @emph{position} and @emph{locator} parameters
 should correspond to existing submenu items.
 
@@ -2364,11 +2329,11 @@ Garnet programming, the @emph{submenu} should be a sublist of the top-level
 
 For example, the following lines will remove an item from the DEMO-MENUBAR
 in Figure @ref{menubar-code-1}:
-@smallexample
+@example
 (opal:remove-item DEMO-MENUBAR
                   '("face" Face-Fn (("roman")("bold")("italic")("bold-italic"))))
 (opal:remove-item DEMO-MENUBAR "size")
-@end smallexample
+@end example
 
 The following function is used to remove submenu-items from a @code{menubar}:
 
@@ -2398,7 +2363,7 @@ the @code{menubar}.
 
 
 @float Figure, fig:ex812
-@smallexample
+@example
 
 (create-instance 'WIN inter:interactor-window
    (:left 750)(:top 80)(:width 200)(:height 200)
@@ -2427,7 +2392,7 @@ the @code{menubar}.
 (opal:add-item demo-menubar mac-bar)
 (opal:update win)
 
-@end smallexample
+@end example
 @caption{The creation of a menubar and its components}
 @anchor{menubar-code-2}
 @end float
@@ -2527,7 +2492,7 @@ with the @emph{index-function} (see below).
 After creating three @code{bar-item} instances, the example below shows how
 the bar-items can be attached as components to a @code{menubar}.
 
-@smallexample
+@example
 (setf bar1 (garnet-gadgets:make-bar-item
              :desc '("font-name" NIL (("courier") ("times") ("geneva")))))
 (setf bar2 (garnet-gadgets:make-bar-item
@@ -2537,12 +2502,12 @@ the bar-items can be attached as components to a @code{menubar}.
 (opal:add-item DEMO-MENUBAR bar1)
 (opal:add-item DEMO-MENUBAR bar2 :after "family" :key #'car)
 (opal:add-item DEMO-MENUBAR bar3 :after bar2)
-@end smallexample
+@end example
 
 The following instructions show how submenu-items can be attached to
 oa @code{bar-item}. A @code{bar-item} object is first created, and then several
 submenu-items are attached to it using @code{add-item}:
-@smallexample
+@example
 (setf mac-bar (garnet-gadgets:make-bar-item :title "Mac Fonts"))
 (setf sub-1 (garnet-gadgets:make-submenu-item :desc '("Gothic")))
 (setf sub-2 (garnet-gadgets:make-submenu-item :desc '("Venice")))
@@ -2550,7 +2515,7 @@ submenu-items are attached to it using @code{add-item}:
 (opal:add-item mac-bar sub-1)
 (opal:add-item mac-bar sub-2 :before sub-1)
 (opal:add-item mac-bar sub-3 :after "Venice" :key #'car)
-@end smallexample
+@end example
 @end defmethod
 
 @cindex{remove-item}
@@ -2675,7 +2640,7 @@ a @code{bar-item}.
 @cindex{String input}
 @center @image{labeled-box-pix, 5.5in}
 
-@smallexample
+@example
 (create-instance 'gg:Labeled-Box opal:aggregadget
    (:maybe-constant '(:left :top :label-offset :field-offset :min-frame-width
                       :label-string :field-font :label-font :visible))
@@ -2690,7 +2655,7 @@ a @code{bar-item}.
    (:label-font (create-instance NIL opal:font (:face :bold)))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 The loader file for the @code{labeled-box} is "labeled-box-loader".
 
@@ -2717,7 +2682,7 @@ and the font of the inner text is in @code{:field-font}.
 
 @anchor{scrolling-input-string}
 
-@smallexample
+@example
 (create-instance 'gg:Scrolling-Input-String opal:aggregadget
    (:maybe-constant '(:left :top :width :font :line-style :visible))
    (:left 0)
@@ -2728,7 +2693,7 @@ and the font of the inner text is in @code{:field-font}.
    (:selection-function NIL) ; @i{Function to be executed after editing text}
    (:font opal:default-font) ; @i{**Must be fixed width**}
    (:line-style opal:default-line-style)) ; @emph{line style can be used to set the color of the string}
-@end smallexample
+@end example
 
 @center @image{scrolling-input, 5.5in}
 
@@ -2768,7 +2733,7 @@ needed).
 
 @anchor{scrolling-labeled-box}
 
-@smallexample
+@example
 (create-instance 'gg:Scrolling-Labeled-Box opal:aggregadget
    (:maybe-constant '(:left :top :width :label-offset :field-offset
 		      :label-string :field-font :label-font :visible))
@@ -2785,7 +2750,7 @@ needed).
    (:field-offset 2) ; @i{The distance between the field text and the box}
    (:label-font (create-instance NIL opal:default-font (:face :bold))))
 		     ; @i{The font of the string beside the box, can be variable-width}
-@end smallexample
+@end example
 
 @center @image{scrolling-labeled-box, 5.5in}
 
@@ -2805,7 +2770,7 @@ operates just like the @code{scrolling-input-string}.
 
 @anchor{graphics-selection}
 
-@smallexample
+@example
 (create-instance 'gg:Graphics-Selection opal:aggregadget
    (:start-where NIL)
    (:start-event :leftdown)
@@ -2818,7 +2783,7 @@ operates just like the @code{scrolling-input-string}.
    (:active-p T)
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @float Figure, fig:ex813
 @center @image{select-rect-pix, 5.5in}
@@ -2834,7 +2799,7 @@ The loader file for @code{graphics-selection} is "graphics-loader".
 
 The @code{graphics-selection} object is used to move and change the size of other
 graphical objects. (The @code{multi-graphics-selection} can select and
-move multiple objects -- see section @ref{multi-graphics-selection}.)  When the user
+move multiple objects -- see section @ref{multi-gs}.)  When the user
 clicks on a graphical object (from a 
 set of objects chosen by the designer), the object becomes selected
 and small selection squares appear around the perimeter of the object.
@@ -2898,17 +2863,17 @@ The @code{graphics-selection} gadget will be active when the value of its
 The @code{:selection-function} slot specifies a function to be executed
 upon the selection of any object by the user. This function must take
 the parameters:
-@smallexample
+@example
 (lambda (gadget-object new-selection))
-@end smallexample
+@end example
 The @code{new-selection} parameter may be @code{nil} if no
 objects are selected (i.e., the user clicks in the background).
 
 The designer can supply a @code{:modify-function} that will be called
 after an object is modified. It takes these parameters:
-@smallexample
+@example
 (lambda (gadget-object selected-object new-points))
-@end smallexample
+@end example
 The @code{new-points} will be a list of 4 numbers,
 either @code{left,top,width,height} or @code{x1,y1,x2,y2}.
 
@@ -2919,7 +2884,7 @@ either @code{left,top,width,height} or @code{x1,y1,x2,y2}.
 
 @anchor{multi-gs}
 
-@smallexample
+@example
 (create-instance 'gg:Multi-Graphics-Selection opal:aggregadget
   @emph{;; programmer-settable slots}
    (:active-p T)      @emph{;; whether objects can be selected with the gadget}
@@ -2952,7 +2917,7 @@ either @code{left,top,width,height} or @code{x1,y1,x2,y2}.
    (:current-selected-object NIL) @emph{;; set with new selection or object to be moved}
 				  @emph{;; or grown before other slots are set.}
    (:value NIL))  @emph{;; current object or objects selected **DO NOT SET**}
-@end smallexample
+@end example
 
 @center @image{multi-selection-pix1, 5.5in}
 @center @image{multi-selection-pix2, 5.5in}
@@ -3243,7 +3208,7 @@ be scrolled in is visible in the window.
 
 @center @image{scrolling-window-gadget, 5.5in}
 
-@smallexample
+@example
 (create-instance 'gg:Scrolling-Window opal:aggregadget
    (:maybe-constant '(:title :parent-window))
    (:left 0)  ; @emph{left, top, width and height of window}
@@ -3267,9 +3232,9 @@ be scrolled in is visible in the window.
    (:Inner-Window NIL)  ; @emph{these are created by the update method}
    (:inner-aggregate NIL) ; @emph{add your objects to this aggregate (but have to update first)}
    (:outer-window NIL) ; @emph{call Opal:Update on this window (or on gadget itself)}
-@end smallexample
+@end example
 
-@smallexample
+@example
 @cindex{scrolling-window-with-bars}
 (create-instance 'gg:Scrolling-Window-With-Bars opal:aggregadget
    (:maybe-constant '(:left :top :width :height :border-width :title
@@ -3319,7 +3284,7 @@ be scrolled in is visible in the window.
    (:outer-window NIL) ; @emph{call Opal:Update on this window (or on gadget itself)}
    (:clip-window NIL)
 
-@end smallexample
+@end example
 
 
 The loader file for both scrolling-window gadgets is
@@ -3386,7 +3351,7 @@ sub-window inside a scrolling-window, use the window in the
 the newly created window.
 
 As an example:
-@smallexample
+@example
 (create-instance 'MYSCROLL garnet-gadgets:scrolling-window-with-bars
    (:left 650)(:top 10)(:width 300)(:height 400)
    @emph{;;note that the next two formulas must have initial values}
@@ -3400,7 +3365,7 @@ As an example:
 (create-instance 'SUB-SCROLLING-WINDOW garnet-gadgets:scrolling-window-with-bars
    (:left 15)(:top 15)(:width 150)(:height 150)
    (:parent-window (gv MYSCROLL :inner-window)))
-@end smallexample
+@end example
  
 With @code{Scrolling-Windows}, but @emph{not} @code{Scrolling-windows-with-Bars},
 you can explicitly set the @code{:X-offset} and
@@ -3460,7 +3425,7 @@ double-headed arrow. These objects are provided since the standard
 @subsubsection @code{arrow-line}
 
 @anchor{arrow-line}
-@smallexample
+@example
 (create-instance 'gg:Arrow-Line opal:aggregadget
    (:maybe-constant '(:x1 :y1 :x2 :y2 :line-style :open-p :filling-style :visible))
    (:X1 0) (:Y1 0)
@@ -3468,7 +3433,7 @@ double-headed arrow. These objects are provided since the standard
    (:line-style opal:default-line-style)
    (:filling-style NIL)
    (:open-p T))
-@end smallexample
+@end example
 
 The loader file for the @code{arrow-line} is "arrow-line-loader".
 
@@ -3507,22 +3472,22 @@ Additional features of the arrowhead may be customized
 by accessing the slot @code{:arrowhead} of the @code{arrow-line}. For
 example, the following instruction would set the @code{:diameter} of an
 @code{arrow-line} arrowhead to 20:
-@smallexample
+@example
 (s-value (gv MY-ARROW-LINE :arrowhead) :diameter 20)
-@end smallexample
+@end example
 
 The same customization may also be implemented when the instance is created:
-@smallexample
+@example
 (create-instance 'MY-ARROW-LINE garnet-gadgets:arrow-line
    (:parts `(:line (:arrowhead :modify
                                (:diameter 20)))))
-@end smallexample
+@end example
 
 @node @code{double-arrow-line}
 @subsubsection @code{double-arrow-line}
 
 @anchor{double-arrow-line}
-@smallexample
+@example
 (create-instance 'gg:Double-Arrow-Line opal:aggregadget
    (:maybe-constant '(:x1 :y1 :x2 :y2 :line-style :open-p :filling-style
 		      :arrowhead-p :visible))
@@ -3532,7 +3497,7 @@ The same customization may also be implemented when the instance is created:
    (:filling-style NIL)
    (:open-p T)
    (:arrowhead-p :both))
-@end smallexample
+@end example
 
 The loader file for the @code{double-arrow-line} is "arrow-line-loader".
 
@@ -3565,7 +3530,7 @@ and @code{:arrowhead2}.
 @anchor{browser-gadget}
 @cindex{browser gadget}
 
-@smallexample
+@example
 (create-instance 'gg:Browser-Gadget opal:aggregadget
    (:maybe-constant '(:left :top :num-menus :num-rows :menu-items-generating-function
                       :menu-function :item-to-string-function :additional-selection-p
@@ -3590,7 +3555,7 @@ and @code{:arrowhead2}.
    (:title-font (create-instance NIL opal:font (:face :italic)))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @center @image{browser-gadget-pix, 5.5in}
 
@@ -3705,7 +3670,7 @@ the @code{browser-gadget} to look at the inheritance hierarchy of Garnet
 schemas. First, create an instance called BROWSER-1 with the
 appropriate generating functions (these particular lambda-expressions
 are analyzed in @ref{gen-fns}).
-@smallexample
+@example
 (create-instance 'BROWSER-1 garnet-gadgets:browser-gadget
    (:menu-items-generating-function #'(lambda (item)
 					(gv item :is-a-inv)))
@@ -3713,23 +3678,23 @@ are analyzed in @ref{gen-fns}).
 				 (if item
 				     (string-capitalize (kr:name-for-schema item))
 				     ""))))
-@end smallexample
+@end example
 The BROWSER-1 schema can be added to a Garnet window in the usual way:
-@smallexample
+@example
 (create-instance 'WIN inter:interactor-window
    (:width 600) (:height 200)
    (:aggregate (create-instance 'AGG opal:aggregate)))
 (opal:add-component AGG BROWSER-1)
 (opal:update win)
-@end smallexample
+@end example
 
 Now, we can initialize the BROWSER-1 object with a Garnet schema, such
 as the @code{opal:rectangle} schema:
 @cindex{set-first-item}
-@smallexample
+@example
 (garnet-gadgets:set-first-item BROWSER-1 opal:rectangle)
 (opal:update win)
-@end smallexample
+@end example
 All instances of @code{opal:rectangle} that currently exist
 will be shown in the first menu. Clicking on one of the selections in
 this menu will cause that selection to appear in the title of the
@@ -3740,9 +3705,9 @@ schema, we can use the
 @b{@code{push-first-item}} (described in section @ref{manipulating}) to
 show all of the objects that are instances of @code{opal:graphical-object}.
 If we call
-@smallexample
+@example
 (garnet-gadgets:push-first-item BROWSER-1 opal:graphical-object)
-@end smallexample
+@end example
 then the "Rectangle" title will be moved into the
 second menu along with all of its selections, and the
 "Graphical-Object" item will be displayed in the first menu with all
@@ -3805,9 +3770,9 @@ the titles of the menus and the menu selections, respectively.
 The function specified in @code{:selection-function} is executed when
 the user selects an item from one of the scrolling menus. The
 parameters of this function are
-@smallexample
+@example
 (lambda (browser-instance item))
-@end smallexample
+@end example
 where the @emph{item} is an object generated by the
 function specified in @code{:menu-items-generating-function}. This
 function is executed after some internal bookkeeping is performed to
@@ -3850,9 +3815,9 @@ visible.
 The function specified in the slot @code{:additional-selection-function}
 will be executed when the user chooses the additional selection. The
 parameters are
-@smallexample
+@example
 (lambda (browser-instance item))
-@end smallexample
+@end example
 where @emph{item} was just selected by the user. If
 the user presses over the previous additional selection, it will
 become deselected, and the
@@ -3915,7 +3880,7 @@ retained; otherwise, the item becomes the only item in the instance.
 
 @center @image{polyline-creator, 5.5in}
 
-@smallexample
+@example
 (create-instance 'gg:Polyline-Creator opal:aggregadget
 
     (:selection-function NIL) @i{; called when have full poly-line}
@@ -3935,7 +3900,7 @@ retained; otherwise, the item becomes the only item in the instance.
 
     @emph{; Return value}
     (:value NIL) ; @emph{set with final point list}
-@end smallexample
+@end example
 
 The loader file for the @code{polyline-creator} gadget is
 "polyline-creator-loader".
@@ -3974,9 +3939,9 @@ The function in the @code{:selection-function} is called to create the new
 polyline. This function should not destructively modify the point-list,
 but should instead @emph{copy} the point-list if it will be changed. This
 functions is called with the parameters
-@smallexample
+@example
 (lambda (gadget new-point-list)
-@end smallexample
+@end example
 where @emph{new-point-list} is of the form: @code{(x1 y1 x2 y2 x3 y3 ...)}.
 
 The @code{:input-filter} slot is used just as in the @code{move-grow-interactor}
@@ -4065,10 +4030,11 @@ This aborts the gadget without creating the polyline.
 @node @code{error-gadget}
 @subsection @code{error-gadget}
 
+@anchor{error-gadget}
 @cindex{error-gadget}
 @center @image{error-gadget-pix, 5.5in}
 
-@smallexample
+@example
 (create-instance 'gg:Error-Gadget opal:aggregadget
    (:parent-window NIL)
    (:font opal:default-font)
@@ -4079,7 +4045,7 @@ This aborts the gadget without creating the polyline.
    (:window NIL)               @emph{; Automatically initialized}
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    ...)
-@end smallexample
+@end example
 
 The loader file for the @code{error-gadget} is "error-gadget-loader".
 
@@ -4210,7 +4176,7 @@ of Guy Steele's @emph{Common Lisp, the Language}.)
 
 Examples:
 
-@smallexample
+@example
 @b{lisp>} (gg:careful-eval '(+ 4 5))    @emph{;; evaluates successfully}
 9
 @b{lisp>} (gg:careful-eval '(+ 4 y))    @emph{;; signals an error}
@@ -4225,7 +4191,7 @@ An error was encountered
 
 NIL
 @b{lisp>}
-@end smallexample
+@end example
 @end defmac
 
 
@@ -4234,9 +4200,9 @@ NIL
 
 @cindex{careful-read-from-string}
 
-@smallexample
+@example
 gg:Careful-Read-From-String @emph{string} &optional @emph{error-gadget  error-message} @ref{function}
-@end smallexample
+@end example
 
 @code{Careful-Read-From-String} will try to read a symbol or expression from the
 @emph{string} and return it if successful. If an error is encountered, then the
@@ -4249,9 +4215,9 @@ concatenation of the actual lisp error message followed by the
 @subsubheading @code{careful-string-eval}
 
 
-@smallexample
+@example
 gg:Careful-String-Eval @emph{string} &optional @emph{error-gadget  error-message} @ref{function}
-@end smallexample
+@end example
 
 @code{Careful-String-Eval} will try to read a symbol or expression from the
 string and then eval it. If the read and eval are successful, then the
@@ -4265,10 +4231,10 @@ be a concatenation of the actual lisp error message and the @emph{error-message}
 @subsubheading @code{careful-eval-formula-lambda}
 
 
-@smallexample
+@example
 gg:Careful-Eval-Formula-Lambda @emph{expr  error-gadget  error-message} @ref{function}
                                @emph{the-obj  the-slot  the-formula  warn-p}
-@end smallexample
+@end example
 
 @code{Careful-Eval-Formula-Lambda} evaluates the expression AS IF it were
 installed in @emph{the-slot} of @emph{the-obj} as a formula. This is useful when
@@ -4290,7 +4256,7 @@ prevent the establishment of dependencies.
 @sp 1
 Example:
 
-@smallexample
+@example
 @b{lisp>} (create-instance 'R opal:rectangle
         (:my-left 67))
 Object R
@@ -4299,7 +4265,7 @@ Object R
                                         R :left :ignore NIL)
 67
 @b{lisp>} 
-@end smallexample
+@end example
 
 
 @node @code{query-gadget}
@@ -4307,7 +4273,7 @@ Object R
 
 @anchor{query-gadget}
 @cindex{query-gadget}
-@smallexample
+@example
 (create-instance 'gg:Query-Gadget gg:error-gadget
    (:button-names '("OK" "CANCEL"))
    (:string "Is that OK?")
@@ -4319,7 +4285,7 @@ Object R
    (:window NIL)               @emph{; Automatically initialized}
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    ...)
-@end smallexample
+@end example
 
 The loader file for the @code{query-gadget} is "error-gadget-loader"
 (the @code{query-gadget} is in the same file as the @code{error-gadget}).
@@ -4336,11 +4302,11 @@ To display a query-gadget, you first create an instance of
 @code{query-gadget}, and then call one of:
 @cindex{display-query}
 @cindex{display-query-and-wait}
-@smallexample
+@example
 display-query @emph{query-gadget} &optional @emph{message label-list}
 
 display-query-and-wait @emph{query-gadget} &optional @emph{message label-list}
-@end smallexample
+@end example
 The @emph{message} is the string to display, and the optional @emph{label-list}
 allows you to change the buttons. It should be a list of strings, atoms or
 keywords. If @emph{message} is not supplied, then the value of the @code{:string}
@@ -4360,7 +4326,7 @@ return until the user hits one of the buttons. The return value
 
 @anchor{save-gadget}
 
-@smallexample
+@example
 (create-instance 'gg:Save-Gadget opal:aggregadget  
   (:maybe-constant '(:parent-window :window-title :window-left :window-top
 		     :message-string :num-visible :initial-directory :button-panel-items
@@ -4390,7 +4356,7 @@ return until the user hits one of the buttons. The return value
   (:button-panel-font opal:default-font)
   (:file-menu-font (opal:get-standard-font NIL :bold NIL))
   ...)
-@end smallexample
+@end example
 
 @float Figure, fig:ex814
 @center @image{save-gadget, 5.5in}
@@ -4429,11 +4395,11 @@ The save window is activated by calling one of these functions:
 
 @cindex{display-save-gadget}
 @cindex{display-save-gadget-and-wait}
-@smallexample
+@example
 gg:Display-Save-Gadget @emph{save-gadget} &optional @emph{initial-filename}@value{function}
 
 gg:Display-Save-Gadget-And-Wait @emph{save-gadget} &optional @emph{initial-filename}@value{function}
-@end smallexample
+@end example
 
 While the @code{display-save-gadget} routine returns immediately when the
 dialog box appears, @code{display-save-gadget-and-wait} does not return
@@ -4565,7 +4531,7 @@ include the following 5 components in the parts list: @code{:dir-input},
 @code{:OK-cancel-buttons}.
 
 An example of adding more gadgets to a save gadget follows:
-@smallexample
+@example
 (create-instance 'SG gg:save-gadget
   (:parts 
    `(:dir-input :file-menu :file-input :message :OK-cancel-buttons
@@ -4573,7 +4539,7 @@ An example of adding more gadgets to a save gadget follows:
       (:left 10) (:top 220)
       (:text-offset 2) (:shadow-offset 5) (:gray-width 3)
       (:string "Test")))))
-@end smallexample
+@end example
 
 This will, in addition to creating the standard save gadget parts, create
 an additional button. This button can be accessed by using @code{(gv
@@ -4601,7 +4567,7 @@ slot can be modified to the desired left and top coordinates.
 
 Suppose the left of the save/cancel buttons should be at 10. The save
 gadget then would look like:
-@smallexample
+@example
 (create-instance 'sg gg:save-gadget	
   (:parts
     `(:dir-input 
@@ -4609,7 +4575,7 @@ gadget then would look like:
       :file-menu 
       :file-input
       (:OK-cancel-buttons :modify (:left 10)))))
-@end smallexample
+@end example
 
 
 
@@ -4644,25 +4610,22 @@ For this purpose, the functions @code{save-file-if-wanted} and the
 @code{display-save-gadget-and-wait} return @code{:cancel} if the "Cancel"
 button was hit. For example, the quit function in Garnetdraw looks like
 this:
-@smallexample
+@example
 (defun quit-fun (gadget menu-item submenu-item)
   (unless (eq :cancel (gg:Save-File-If-Wanted *save-db* *document-name*))
     (do-stop)))
-@end smallexample
+@end example
 
 If the user clicks on "Cancel" either in the "Save file first?" query
 box, or in the save-gadget itself, @code{save-file-if-wanted} will return
 @code{:cancel}.
 @end defun
 
+@section[Load Gadget]
 @cindex{load-gadget}
-
-@node Load Gadget
-@section Load Gadget
-
 @anchor{load-gadget}
 
-@smallexample
+@example
 (create-instance 'gg:Load-Gadget opal:aggregadget  
   (:maybe-constant '(:parent-window :window-title :window-left :window-top
                      :message-string :num-visible :initial-directory :button-panel-items
@@ -4690,7 +4653,7 @@ box, or in the save-gadget itself, @code{save-file-if-wanted} will return
   (:button-panel-font opal:default-font)
   (:file-menu-font (opal:get-standard-font nil :bold nil))
   ...)
-@end smallexample
+@end example
 
 The @code{load-gadget} is loaded along with the @code{save-gadget} by the file
 "save-gadget-loader".
@@ -4760,7 +4723,7 @@ labels or values are displayed in bold.
 @anchor{propsheetsec}
 
 @cindex{prop-sheet}
-@smallexample
+@example
 (create-instance 'gg:Prop-Sheet opal:aggregadget
     (:maybe-constant '(:left :top :items :default-filter :v-spacing
 		       :multi-line-p :select-label-p :visible
@@ -4786,7 +4749,7 @@ labels or values are displayed in bold.
     (:value-selected NIL) @emph{; set with the selected value objects (or a list)}
     (:value ...)  @emph{; list of pairs of all the slots and their (filtered) values}
     (:changed-values NIL)) @emph{; only the values that have changed}
-@end smallexample
+@end example
 
 @float Figure, fig:ex815
 @center @image{propplain, 5.5in}
@@ -4941,7 +4904,7 @@ normally customizable for the object. You can also display and modify
 slots of @emph{multiple} objects simultaneously. Gilt makes heavy use of
 many features in this prop-sheet.
 
-@smallexample
+@example
 (create-instance 'gg:Prop-Sheet-For-Obj gg:prop-sheet
     (:maybe-constant '(:left :top :obj :slots :eval-p :set-immediately-p
 		       :v-spacing :multi-line-p :select-label-p
@@ -4979,7 +4942,7 @@ many features in this prop-sheet.
     (:value-selected NIL)  @emph{; set with the selected value objects (or a list)}
     (:value ...)  @emph{; list of pairs of all the slots and their (filtered) values}
     (:changed-values NIL)) @emph{; only the values that have changed}
-@end smallexample
+@end example
  
 
 @float Figure, fig:ex816
@@ -5073,13 +5036,13 @@ a list of @code{(typ gadget)} - this means whenever a slot of type
 @code{typ} is displayed in the prop-sheet, use the specified gadget.
 For example, Gilt uses this mechanism to display a
 @code{Pop-Up-From-Icon} for all slots which contain a font:
-@smallexample
+@example
 (list (g-type opal:text :font)
       (create-instance NIL gg:Pop-Up-From-Icon
 	(:constant :icon-image :pop-up-function)
 	(:creator-function 'Show-Font-Dialog)
 	(:pop-up-function 'Pop-Up-Prop-Dialog)))
-@end smallexample
+@end example
 
 a list of @code{(typ othertyp)} - this means whenever a slot of type
 @code{typ} is found, pretend instead that it has type @code{othertyp}.
@@ -5167,7 +5130,7 @@ Cancel buttons. There are two pairs: one for Garnet look-and-feel
 gadgets, and one for Motif look-and-feel gadgets (see section
 @ref{motif-prop-sheets} for the Motif version).
 
-@smallexample
+@example
 (create-instance 'gg:Prop-Sheet-With-OK opal:aggregadget
     (:maybe-constant '(:left :top :items :default-filter :ok-function
 		       :apply-function :Cancel-Function :v-spacing
@@ -5197,7 +5160,7 @@ gadgets, and one for Motif look-and-feel gadgets (see section
     (:value-selected ...)
     (:value ...)
     (:changed-values ...))
-@end smallexample
+@end example
 
 The @code{prop-sheet-with-OK} gadget is just the @code{prop-sheet} gadget
 with Garnet text buttons for OK, Apply, and Cancel.
@@ -5242,7 +5205,7 @@ The rest of the slots are the same as for @code{prop-sheet}.
 @anchor{propsheetforobjwithok}
 @cindex{Prop-Sheet-for-obj-With-OK}
 
-@smallexample
+@example
 (create-instance 'gg:Prop-Sheet-For-Obj-With-OK prop-sheet-with-OK
     (:maybe-constant '(:left :top :obj :slots :eval-p :ok-function
 		       :apply-function :Cancel-Function :v-spacing
@@ -5282,7 +5245,7 @@ The rest of the slots are the same as for @code{prop-sheet}.
     (:value ...)  @emph{; list of pairs of all the slots and their (filtered) values}
     (:changed-values NIL)) @emph{; only the values that have changed}
 
-@end smallexample
+@end example
 
 The @code{prop-sheet-for-obj-with-OK} gadget is just the
 @code{prop-sheet-for-obj} gadget with Garnet text buttons for OK, Apply,
@@ -5381,7 +5344,7 @@ The @code{horiz-choice-list} displays the choices and allows the user to
 pick one with the left mouse button. The choices can be strings or
 atoms.
 
-@smallexample
+@example
 (create-instance 'gg:Horiz-Choice-List opal:aggregadget
    (:maybe-constant '(:left :top :items))
    @emph{; Customizable slots}
@@ -5391,7 +5354,7 @@ atoms.
    @emph{; Input and output slot}
    (:value NIL) @emph{; what the user selected}
    )
-@end smallexample
+@end example
 
 The loader for @code{Horiz-Choice-List} is "prop-values-loader",
 although it is automatically loaded when you load a property sheet.
@@ -5409,7 +5372,7 @@ The @code{Pop-Up-From-Icon} displays a small icon, and if the user hits
 on it, then a function is called which can pop-up a dialog box or
 menu to make the choice.
 
-@smallexample
+@example
 (create-instance 'gg:Pop-Up-From-Icon opal:aggregadget
   (:maybe-constant '(:left :top :icon-image :pop-up-function))
   @emph{; Customizable slots}
@@ -5417,7 +5380,7 @@ menu to make the choice.
   (:top 0)
   (:icon-image pop-up-icon) @emph{; you can replace with your own picture}
   (:pop-up-function NIL))   @emph{;put a function here to pop-up the menu or whatever}
-@end smallexample
+@end example
 
 The loader for @code{Pop-Up-From-Icon} is "prop-values-loader",
 although it is automatically loaded when you load a property sheet.
@@ -5436,7 +5399,7 @@ up dialog boxes and menus.
 
 First, an example filter function, which checks if value is a number,
 and if it is between 1 and 20.
-@smallexample
+@example
 (defun string-to-num-filter (prop-gadget label index value-obj new-str old-str)
   (declare (ignore prop-gadget label index value-obj))
   (let* ((sym (read-from-string new-str))
@@ -5448,14 +5411,14 @@ and if it is between 1 and 20.
 	(progn
 	  (inter:beep) @emph{; first, beep}
 	  (values new-str T new-str)))))
-@end smallexample
+@end example
 
 Now, we will use that filter function in a property sheet. This code creates
 the property sheet shown in Figure @ref{plainproppix} in section
 @ref{propsheetsec}. It contains three regular lines, a slot using a
 gadget, and then a slot with a filter function and a comment.
 
-@smallexample
+@example
 (create-instance 'PROP1 garnet-gadgets:prop-sheet 
    (:items `((:color "Red")
              (:height "34")
@@ -5463,14 +5426,14 @@ gadget, and then a slot with a filter function and a comment.
 	     (:direction ,(create-instance NIL garnet-gadgets:horiz-choice-list
 			    (:items '("up" "down" "diagonal"))))
 	     (:range "1" ,#'string-to-num-filter 1 "(1..20)"))))
-@end smallexample
+@end example
 
 Finally, a Motif look and feel property sheet for an object with OK, Apply and
 Cancel buttons in it. The @code{my-rectangle1} object is only changed when OK
 or Apply is hit. The resulting window is shown in Figure
 @ref{motifpropfix}.
 
-@smallexample
+@example
 (create-instance 'MY-OBJ-PROP gg:motif-prop-sheet-for-obj-with-OK
   (:left 0)
   (:top 0)
@@ -5485,7 +5448,7 @@ or Apply is hit. The resulting window is shown in Figure
 			    (:pop-up-function #'Line-Style-Pop-Up)))
 	    (:filling-style ,(create-instance NIL gg:pop-up-from-icon
 			       (:pop-up-function #'Fill-style-pop-up))))))
-@end smallexample
+@end example
 
 
 
@@ -5528,7 +5491,7 @@ are only supported in Allegro and Lucid lisp.
 @node MouseLine gadget
 @subsubsection MouseLine gadget
 
-@smallexample
+@example
 (create-instance 'gg:MouseLine opal:aggregadget
   (:left 5)
   (:top (o-formula (- (gvl :window :height)  ; @emph{default is bottom of window}
@@ -5536,7 +5499,7 @@ are only supported in Allegro and Lucid lisp.
 		      5))) 
   (:windows (o-formula (gvl :window)))  ; @emph{default is the window containing the mouseline gadget}
   (:wait-amount 0)   ; @emph{how long to wait before displaying the string}
-@end smallexample
+@end example
 
 The loader file for the @code{MouseLine} is @code{mouseline-loader}.
 
@@ -5576,12 +5539,12 @@ only currently available in Lucid, Allegro, and LispWorks.}
 @node MouseLinePopup gadget
 @subsubsection MouseLinePopup gadget
 
-@smallexample
+@example
 (create-instance 'gg:MouseLinePopup opal:aggregadget
   (:start-event :SHIFT-CONTROL-META-LEFTDOWN)
   (:windows (o-formula (gvl :window))) ; @emph{default is the window containing the mouseline gadget}
   (:wait-amount 3) ; @emph{how long to wait before displaying string}
-@end smallexample
+@end example
 
 The loader file for the @code{MouseLinePopup} is @code{mouseline-loader}.
 
@@ -5679,14 +5642,14 @@ Note that this does @emph{not} use the X cut buffer, since there is no
 standard way to copy graphics under X. 
 
 @cindex{Clipboard-Object}
-@smallexample
+@example
 (create-instance 'gg:Clipboard-Object NIL
   (:value NIL)
   (:x-inc-amt NIL)  ; @emph{Offset for duplicate. If NIL, then uses 10}
   (:y-inc-amt NIL))
 
 (create-instance 'gg:Default-Global-Clipboard gg:Clipboard-Object)
-@end smallexample
+@end example
 
 The @code{Default-Global-Clipboard} is used by default, and allows
 objects to be copied from one Garnet application to another.
@@ -5696,10 +5659,10 @@ objects to be copied from one Garnet application to another.
 @subsubsection Standard Editing Routines
 
 @cindex{Standard-Initialize-Gadget}
-@smallexample
+@example
 gg:Standard-Initialize-Gadget @emph{gadget  selection-gadget  agg-of-items} @ref{function}
                               &key @emph{clipboard  undo-delete?}
-@end smallexample
+@end example
 
 This routine must be called once before any of the others are invoked.
 Typically, you would call this after the editor's windows and objects
@@ -5717,9 +5680,9 @@ then deleted objects are never destroyed, they are just saved in a
 list.
 
 @cindex{Standard-NIY}
-@smallexample
+@example
 gg:Standard-NIY @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 
 Useful for all those functions that are @b{N}ot @b{I}mplemented
 @b{Y}et. It prints "Sorry, Not Implemented Yet" in the Lisp listener
@@ -5727,69 +5690,69 @@ window and beeps.
 
 
 @cindex{Standard-Delete}
-@smallexample
+@example
 gg:Standard-Delete @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Deletes all the selected objects. Makes there be no objects selected.
 
 @cindex{Standard-Delete-All}
-@smallexample
+@example
 gg:Standard-Delete-All @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Deletes all the objects. Makes there be no objects selected.
 
 @cindex{Standard-Undo-Last-Delete}
-@smallexample
+@example
 gg:Standard-Undo-Last-Delete @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 If you have initialized standard-edit with @code{Undo-delete?} as
 non-NIL, then this function will undo the last delete operation. The
 objects brought back are selected.
 
 @cindex{Standard-To-Top}
-@smallexample
+@example
 gg:Standard-To-Top @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Moves the selected objects to the top (so not covered). They stay selected.
 
 @cindex{Standard-To-Bottom}
-@smallexample
+@example
 gg:Standard-To-Bottom @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Moves the selected objects to the bottom (so covered by all other
 objects). They stay selected.
 
 @cindex{Standard-Refresh}
-@smallexample
+@example
 gg:Standard-Refresh @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Simply redraws the window containing the objects using
 @code{(opal:update win T)}.
 
 @cindex{Standard-Select-All}
-@smallexample
+@example
 gg:Standard-Select-All @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Causes all of the objects to be selected.
 
 @cindex{Standard-Cut}
-@smallexample
+@example
 gg:Standard-Cut @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Copies the selected objects into the clipboard's cut buffer, and then
 removes them from the window. Afterwards, there will be no selection.
 
 @cindex{Standard-Copy}
-@smallexample
+@example
 gg:Standard-Copy @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Copies the selected objects into the clipboard's cut buffer, but
 leaves them in the window. The selection remains the same.
 
 @cindex{Standard-Paste-Same-Place}
-@smallexample
+@example
 gg:Standard-Paste-Same-Place @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Pastes the objects in the clipboard into the window at the same place
 from which they were cut. Pasting the same objects multiple times
 will give multiple copies, all in the same place. An application will
@@ -5798,9 +5761,9 @@ typically provide either @code{Standard-Paste-Same-Place} or
 objects will be selected.
 
 @cindex{Standard-Paste-Inc-Place}
-@smallexample
+@example
 gg:Standard-Paste-Inc-Place @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Pastes the objects in the clipboard into the window offset from where 
 they were cut. Pasting the same objects multiple times
 will give multiple copies, each offset from the previous. The offset
@@ -5809,18 +5772,18 @@ of the clipboard object, or, if @code{nil}, then 10 is used. The new
 objects will be selected.
 
 @cindex{Standard-Duplicate}
-@smallexample
+@example
 gg:Standard-Duplicate @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Makes a copy of the selected objects, and places them back into the
 window, offset from the previous objects by @code{:x-inc-amt} and
 @code{:y-inc-amt} (or 10 if these are @code{nil}). The new
 objects will be selected.
 
 @cindex{Standard-Group}
-@smallexample
+@example
 gg:Standard-Group @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Creates an @code{aggregadget} and puts the selected objects into it.
 The @code{Multi-Graphics-Selection} gadget will then operate on the
 group as a whole, and will not let parts of it be manipulated (like
@@ -5828,9 +5791,9 @@ MacDraw, but unlike Lapidary). The group (aggregadget) object will be
 selected.
 
 @cindex{Standard-UnGroup}
-@smallexample
+@example
 gg:Standard-UnGroup @emph{gadget} &rest @emph{args} @ref{function}
-@end smallexample
+@end example
 Goes through all the selected objects, and for any that have the
 @code{:group-p} slot non-NIL, removes all the components from that
 aggregate and adds the objects directly to the parent of the group.
@@ -5844,9 +5807,9 @@ for any objects you don't want the user to ungroup.
 @subsubsection Utility Procedures
 
 @cindex{sort-objs-display-order}
-@smallexample
+@example
 gg:Sort-Objs-Display-Order @emph{objs draw-agg} @ref{function}
-@end smallexample
+@end example
 For many operations, it is important to operate on the objects in
 display order, rather than in the order in which the objects were
 selected. @code{Sort-Objs-Display-Order} takes a list of objects
@@ -5857,16 +5820,16 @@ to supply the @code{:value} of the @code{Multi-Graphics-Selection} gadget,
 for example.
 
 @cindex{Is-A-Motif-Background}
-@smallexample
+@example
 gg:Is-A-Motif-Background @emph{obj} @ref{function}
-@end smallexample
+@end example
 Tests whether the specified object is a @code{Motif-Background} object.
 This procedure is safe even if the Motif gadgets have not been loaded.
 
 @cindex{Is-A-Motif-Rect}
-@smallexample
+@example
 gg:Is-A-Motif-Rect @emph{obj} @ref{function}
-@end smallexample
+@end example
 Tests whether the specified object is a @code{Motif-Rect} object.
 This procedure is safe even if the Motif gadgets have not been loaded.
 
@@ -5976,10 +5939,10 @@ filling-styles that are black, white, or Opal halftones.
 @node @code{motif-background}
 @subsubsection @code{motif-background}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Background opal:rectangle
    (:foreground-color opal:motif-gray))
-@end smallexample
+@end example
 
 In order to simulate the Motif three-dimensional effect in an interface,
 there should be a gray background in a window containing Motif-style
@@ -6008,7 +5971,7 @@ should be the same as the colors of all the Motif gadgets in the window.
 @node @code{motif-tab-inter}
 @subsubsection @code{motif-tab-inter}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Tab-Inter inter:button-interactor
    (:window NIL)
    (:objects NIL)
@@ -6020,7 +5983,7 @@ should be the same as the colors of all the Motif gadgets in the window.
    (:running-priority gg:motif-tab-priority-level)
    (:stop-action #'(lambda (interactor obj-over) ...))
    (:final-function NIL))
-@end smallexample
+@end example
 
 Each Motif gadget has the ability to be operated by the keyboard as
 well as the mouse. In traditional Motif interfaces, the keyboard
@@ -6075,7 +6038,7 @@ and in all three Motif button demos.
 
 @anchor{motif-scroll-bars}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-V-Scroll-Bar gg:motif-gadget-prototype
    (:maybe-constant '(:left :top :width :height :val-1 :val-2 :scr-incr
 		      :page-incr :scr-trill-p :percent-visible :scroll-p
@@ -6097,10 +6060,10 @@ and in all three Motif button demos.
    (:active-p T)
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
-@smallexample
+@example
 (create-instance 'gg:Motif-H-Scroll-Bar gg:motif-gadget-prototype
    (:maybe-constant '(:left :top :width :height :val-1 :val-2 :scr-incr
 		      :page-incr :scr-trill-p :percent-visible :scroll-p
@@ -6122,7 +6085,7 @@ and in all three Motif button demos.
    (:active-p T)
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @center @image{motif-scroll-pix, 5.5in}
 
@@ -6175,9 +6138,9 @@ the keyboard selection cannot be enabled.
 @node Motif Slider
 @subsection Motif Slider
 
-@anchor{motif-slider}
+@anchor{Motif-Slider}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Slider gg:motif-v-scroll-bar
    (:maybe-constant '(:left :top :height :trough-width :val-1 :val-2
 		      :scr-incr :page-incr :scr-trill-p :text-offset
@@ -6202,7 +6165,7 @@ the keyboard selection cannot be enabled.
    (:active-p T)
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    (:parts (...)))
-@end smallexample
+@end example
 
 @center @image{motif-slider-pix, 5.5in}
 
@@ -6237,7 +6200,7 @@ trough is in @code{:text-offset}.
 
 @center @image{motif-trill-pix, 5.5in}
 		
-@smallexample
+@example
 (create-instance 'gg:Motif-Trill-Device gg::motif-gadget-prototype
   (:left 0) (:top 0) 
   (:width 150) (:height 40)
@@ -6250,7 +6213,7 @@ trough is in @code{:text-offset}.
   (:scroll-incr 1)
   (:selection-function NIL)   @emph{; (lambda (gadget value))}
   )
-@end smallexample
+@end example
 
 The loader file for the @code{motif-trill-device} is "motif-trill-device-loader".
 The demo @code{(gg:motif-trill-go)} is loaded by default, and shows an example of
@@ -6286,7 +6249,7 @@ The @code{:foreground-color} slot specifies the color of the object.
 
 @anchor{motif-gauge}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Gauge gg:motif-gadget-prototype
    (:maybe-constant '(:left :top :width :title :foreground-color :title-font
 		      :value-font :enum-font :num-marks :tic-marks-p
@@ -6314,7 +6277,7 @@ The @code{:foreground-color} slot specifies the color of the object.
    (:value (o-formula ...))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @center @image{motif-gauge-pix, 5.5in}
 
@@ -6434,7 +6397,7 @@ select buttons, while the return key is used to select items in the
 
 @anchor{motif-text-buttons}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Text-Button gg:motif-gadget-prototype
    (:maybe-constant '(:left :top :text-offset :active-p :string :toggle-p :font
                       :final-feedback-p :foreground-color :visible))
@@ -6452,10 +6415,10 @@ select buttons, while the return key is used to select items in the
    (:selected (o-formula (gvl :value)))  @emph{;Set by interactor}
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Text-Button-Panel motif-gadget-prototype
    (:maybe-constant '(:left :top :text-offset :final-feedback-p :toggle-p :items :font
                       :foreground-color :direction :v-spacing :h-spacing :v-align
@@ -6478,7 +6441,7 @@ select buttons, while the return key is used to select items in the
    (:active-p (o-formula ...))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    <All customizable slots of an aggrelist>)
-@end smallexample
+@end example
 
 The loader file for the @code{motif-text-button} and @code{motif-text-button-panel}
 is "motif-text-buttons-loader".
@@ -6498,7 +6461,7 @@ button frame is specified in @code{:text-offset}.
 
 @anchor{motif-check-buttons}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Check-Button gg:motif-gadget-prototype
    (:maybe-constant '(:left :top :button-width :text-offset :text-on-left-p
 		      :active-p :toggle-p :string :font :foreground-color :visible))
@@ -6517,10 +6480,10 @@ button frame is specified in @code{:text-offset}.
    (:selected (o-formula (gvl :value))) @emph{;Set by interactor}
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Check-Button-Panel motif-gadget-prototype
    (:maybe-constant '(:left :top :button-width :text-offset :text-on-left-p :items
                       :font :foreground-color :direction :v-spacing :h-spacing 
@@ -6544,7 +6507,7 @@ button frame is specified in @code{:text-offset}.
    (:active-p (o-formula ..))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    <All customizable slots of an aggrelist>)
-@end smallexample
+@end example
 
 The loader file for the @code{motif-check-button} and the
 @code{motif-check-button-panel} is "motif-check-buttons-loader".
@@ -6575,7 +6538,7 @@ square.
 
 @anchor{motif-radio-buttons}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Radio-Button gg:motif-gadget-prototype
    (:maybe-constant '(:left :top :button-width :text-offset :text-on-left-p
 		      :toggle-p :active-p :string :font :foreground-color :visible))
@@ -6594,10 +6557,10 @@ square.
    (:selected (o-formula (gvl :value)))  @emph{; Set by interactor}
    (:selection-function NIL)             @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 @sp 1
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Radio-Button-Panel motif-gadget-prototype
    (:maybe-constant '(:left :top :button-width :text-offset :text-on-left-p :toggle-p
                       :items :font :foreground-color :direction :v-spacing :h-spacing
@@ -6622,7 +6585,7 @@ square.
    (:active-p (o-formula ...))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    <All customizable slots of an aggrelist>)
-@end smallexample
+@end example
 
 The loader file for the @code{motif-radio-button} and
 @code{motif-radio-button-panel} is "motif-radio-buttons-loader".
@@ -6639,7 +6602,7 @@ to the motif check buttons). Only one button may be selected at a time.
 @anchor{motif-option-button}
 @cindex{motif-option-button}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Option-Button opal:aggregadget
   (:maybe-constant '(:left :top :text-offset :label :button-offset :items :initial-item
                      :button-font :label-font :button-fixed-width-p :v-spacing
@@ -6660,7 +6623,7 @@ to the motif check buttons). Only one button may be selected at a time.
   (:menu-h-align :left)
   (:selection-function NIL)   @emph{; (lambda (gadget value))}
   ...)
-@end smallexample
+@end example
 
 @float Figure, fig:ex819
 @center @image{motif-option-button-normal, 5.5in}
@@ -6696,7 +6659,7 @@ is named "motif-option-button-loader".
 
 @anchor{motif-menu}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Menu gg:motif-gadget-prototype
    (:maybe-constant '(:left :top :min-frame-width :text-offset :v-spacing :h-align
                       :items :accelerators :bar-above-these-items :item-font
@@ -6730,7 +6693,7 @@ is named "motif-option-button-loader".
    (:value (o-formula ...))
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @center @image{motif-menu-pix, 5.5in}
 
@@ -6748,10 +6711,10 @@ time.
 The @code{:accelerators} slot is a list of triples which correspond to the items
 in the @code{:items} list. Consider the following slot definitions in
 an instance of the @code{motif-menu}:
-@smallexample
+@example
 (:items '("Remove-window" "Move-window" ...))
 (:accelerators '((#\R "Alt+F2" :META-F2) (#\M "Alt+F3" :META-F3) ...))
-@end smallexample
+@end example
 Since the #\M character appears in the second accelerator pair, the "M" in the
 "Move-window" item will be underlined in the menu. The string "Alt+F3" will
 appear to the right of the "Move-window" item in the menu. Interactors
@@ -6811,7 +6774,7 @@ The fonts in which to display the items and the accelerator strings are in
 @node The @code{motif-menu} Accelerator Interactor
 @subsubsection The @code{motif-menu} Accelerator Interactor
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Menu-Accelerator-Inter inter:button-interactor
    (:window NIL)
    (:menus NIL)
@@ -6826,7 +6789,7 @@ The fonts in which to display the items and the accelerator strings are in
    (:running-priority gg:motif-tab-priority-level)
    (:stop-action #'(lambda (interactor obj-over) ...))
    (:final-function NIL))
-@end smallexample
+@end example
 
 @cindex{motif-menu-accelerator-inter}
 The @code{motif-menu-accelerator-inter} interactor is used with a set of
@@ -6848,9 +6811,9 @@ The @code{add-item} method for the @code{motif-menu} is similar to the standard
 method, except that the programmer may supply an accelerator to be added
 to the menu which corresponds to the item being added.
 
-@smallexample
+@example
 opal:add-item @i{motif-menu item} [:accelerator @i{accel}] [[:where] @i{position [locator]} [:key @i{function-name}]]
-@end smallexample
+@end example
 
 The value for @emph{accel} should be an accelerator triplet that can be
 inserted into the @code{:accelerators} list of the @emph{motif-menu}, such as
@@ -6868,7 +6831,7 @@ automatically removed from the @code{:accelerators} list (if there is one).
 
 @center @image{motif-scrolling-menu-pix, 5.5in}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Scrolling-Menu motif-gadget-prototype
    (:maybe-constant '(:left :top :scroll-on-left-p
 		      :scr-incr :page-incr :min-frame-width :v-spacing :h-align
@@ -6913,7 +6876,7 @@ automatically removed from the @code{:accelerators} list (if there is one).
    (:selected-ranks NIL)
    (:foreground-color opal:motif-gray)
    (:value (o-formula ...)))
-@end smallexample
+@end example
 
 
 The loader file for the @code{motif-scrolling-menu} is named
@@ -6941,7 +6904,7 @@ absent in the standard @code{scrolling-menu}.
 @anchor{motif-menubar-pix}
 @end float
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Menubar gg::motif-gadget-prototype
   (:left 0)(:top 0)
   (:items NIL)
@@ -6951,7 +6914,7 @@ absent in the standard @code{scrolling-menu}.
   (:accelerators NIL)
   (:accelerator-windows (o-formula (gvl :window)))
   (:bar-above-these-items NIL))
-@end smallexample
+@end example
 
 To load the @code{motif-menubar}, execute
 @code{(garnet-load "gadgets:motif-menubar-loader")}.
@@ -6996,7 +6959,7 @@ All the selection functions take three parameters:
 The following @code{:items} list is taken from the @code{gg:Motif-Menubar-Go} demo,
 defined at the end of motif-menubar.lisp.
 
-@smallexample
+@example
 (:items
  `((:family ,#'family-fn
 	    ((:fixed ,#'fixed-fn)(:serif ,#'serif-fn)(:sans-serif ,#'sans-serif-fn)))
@@ -7004,7 +6967,7 @@ defined at the end of motif-menubar.lisp.
 	  ((:roman)(:bold)(:italic)(:bold-italic)))
    (:size ,#'size-fn
 	  ((:small)(:medium)(:large)(:very-large)))))
-@end smallexample
+@end example
 
 This @code{:items} list attaches the functions @code{family-fn},
 @code{face-fn}, and @code{size-fn} to each of the @emph{submenus}
@@ -7042,11 +7005,11 @@ string/character
 pairs are supplied to the menubar in a list, one pair for each item in the
 menubar. For example,
 
-@smallexample
+@example
 (:accelerators '((("!f" :|META-f|) ("!b" :|META-b|))
 		 NIL
 		 (NIL NIL ("!x" :|META-x|))))
-@end smallexample
+@end example
 
 In this accelerators list, the first item in the first submenu has
 accelerator string "!f", and is selected by the keyboard event,
@@ -7058,11 +7021,11 @@ have no accelerators. The third item in the third submenu has string
 
 In general, the format for the @code{:accelerators} slot is:
 
-@smallexample
+@example
 (:accelerators '(((s1,1 k1,1) (s1,2 k1,2) ...)
 		 ((s2,1 k2,1) (s2,2 k2,2) ...)
 		 ...))
-@end smallexample
+@end example
 
 where sM,N is the accelerator string for the N-th item in the M-th
 submenu, and kM,N is the keyboard event for the same.
@@ -7083,11 +7046,11 @@ The "bars" feature of the @code{motif-menu} can also be used in the
 @code{motif-menubar} gadget. The @code{:bar-above-these-items} slot specifies
 over which items a horizontal line should appear. For example:
 
-@smallexample
+@example
 (:bar-above-these-items '(("Small")
 			  NIL
 			  ("Faster" "Warp Speed")))
-@end smallexample
+@end example
 
 will cause a bar to appear above the item "Small" in the first
 submenu, and above the items @code{"Faster"} and @code{"Warp Speed"} in the third
@@ -7108,10 +7071,10 @@ created individually and attached to the menubar.
 The format for the @code{:items} slot of the @code{motif-menubar} is the same as in
 the regular @code{menubar}. For example,
 
-@smallexample
+@example
 (:items '(("Speed" NIL (("Slow" Slow-Fn) ("Medium" Med-Fn)
 			("Fast" Fast-Fn) ("Whoa" Too-Fast-Fn)))))
-@end smallexample
+@end example
 
 This @code{:items} list creates a menubar with one bar-item, @code{"Speed"},
 which has no submenu selection function. In that bar-item's submenu,
@@ -7138,7 +7101,7 @@ The following example creates the @code{motif-menubar} pictured in Figure
 location of the bar.
 
 
-@smallexample
+@example
 (create-instance 'WIN inter:interactor-window
   (:background-color opal:motif-gray)
   (:aggregate (create-instance 'TOP-AGG opal:aggregate)))
@@ -7170,7 +7133,7 @@ location of the bar.
 
 (opal:add-component TOP-AGG MY-MOTIF-MENUBAR)
 (opal:update win)
-@end smallexample
+@end example
 
 
 @subsubheading Adding Items to the @code{motif-menubar}
@@ -7183,10 +7146,10 @@ The add-item method for the motif-menubar may be used to add submenus:
 
 @cindex{Add-item}
 @cindex{Motif-menubar}
-@smallexample
+@example
 opal:Add-Item @i{menubar submenu} [:accelerators @i{accels}] @ref{method}
               @i{                              } [[:where] @i{position} [@i{locator}] [:key @i{index-function}]]
-@end smallexample
+@end example
 
 NOTE: If any accelerators are being added, the @code{:accelerators} keyword and
 arguments @emph{must} appear before the @code{:where} arguments.
@@ -7194,21 +7157,21 @@ arguments @emph{must} appear before the @code{:where} arguments.
 The following will add a bar item named "Volume", with a few items and
 accelerators in it:
 
-@smallexample
+@example
 (opal:add-item MY-MOTIF-MENUBAR 
 	       '("Volume" NIL (("Low") ("Medium") ("High") ("Yowsa")))
 	       :accelerators '(NIL NIL
 			       ("!h" :|META-h|) ("!y" :|META-y|))
 	       :before :size :key #'car)
-@end smallexample
+@end example
 
 To add a submenu item, use the function:
 
-@smallexample
+@example
 gg:Add-Submenu-Item @i{menubar submenu-title submenu-item} @ref{method}
                     [:accelerator @i{accel}]
                     [[:where] @i{position} [@i{locator}] [:key @i{index-function}]]
-@end smallexample
+@end example
 
 As with the previous function, if any accelerators are being added, they
 @emph{must} appear before the @code{:where}. Also, notice that since only one
@@ -7218,10 +7181,10 @@ accelerator is being added for the item, the keyword is @code{:accelerator}, not
 The following example will add a submenu item named "Quiet" to the
 submenu named "Volume", and its accelerator will be META-q:
 
-@smallexample
+@example
 (gg:add-submenu-item MY-MOTIF-MENUBAR "Volume" '("Quiet")
 		     :accelerator '("!q" :|META-q|) :before "Low" :key #'car)
-@end smallexample
+@end example
 
 
 @subsubheading Removing Items from the @code{motif-menubar}
@@ -7268,7 +7231,7 @@ them to a menubar.
 This example creates a @code{motif-menubar} and several components, and
 attaches them together. 
 
-@smallexample
+@example
 (create-instance 'WIN inter:interactor-window
   (:background-color opal:motif-blue)
   (:aggregate (create-instance 'TOP-AGG opal:aggregate)))
@@ -7297,7 +7260,7 @@ attaches them together.
 (opal:add-component TOP-AGG MY-MOTIF-MENUBAR)
 		
 (opal:update win)
-@end smallexample
+@end example
 
 When programming a @code{motif-menubar} by components, you should add
 accelerators only when you add a bar-item to the menubar, or when adding
@@ -7357,10 +7320,10 @@ information on these two functions, see section @ref{menubar}.
 
 @cindex{Add-item}
 @cindex{Motif-menubar}
-@smallexample
+@example
 opal:Add-Item @i<motif-menubar motif-bar-item> [:accelerators @i<accels>] @ref{method}
               @i<                                                 > [[:where] @i<position> [@i<locator>] [:key @i<index-function>]]
-@end smallexample
+@end example
 
 Will add @i<motif-bar-item> to @i<motif-menubar>. As usual, if any
 accelerators are being added, the @code{:accelerators} key @emph{must} be
@@ -7369,11 +7332,11 @@ described in Section @ref{mmbar-accelerators}.
 
 @cindex{Add-item}
 @cindex{Motif-menubar}
-@smallexample
+@example
 opal:Add-Item @i<motif-bar-item motif-menu-item> @ref{method}
               [:accelerator @i<accels>] 
               [[:where] @i<position> [@i<locator>] [:key @i<index-function>]]
-@end smallexample
+@end example
 
 Adds the submenu-item, @i<motif-menu-item> to @i<motif-bar-item>. If the
 @i<motif-bar-item> is not attached to a @code{motif-menubar}, then no
@@ -7381,7 +7344,7 @@ accelerators will be added, regardless of whether any are specified.
 
 The following example shows how bar items are added to a @code{motif-menubar}:
 
-@smallexample
+@example
 (setf bar1 (gg:make-motif-bar-item
             :desc '("Color" NIL (("Red") ("Blue") ("Polka Dots")))))	
 (setf bar2 (gg:make-motif-bar-item
@@ -7390,16 +7353,16 @@ The following example shows how bar items are added to a @code{motif-menubar}:
                :accelerators '(("!r" :|META-r|) ("!b" :|META-b|) ("!p" :|META-p|)))
 (opal:add-item MY-MOTIF-MENUBAR bar2 :before bar1)	
 (opal:update win)
-@end smallexample
+@end example
 
 This sequence shows how submenu-items can be attached to bar-items:
 
-@smallexample
+@example
 (setf color1 (gg:make-motif-submenu-item :desc '("Maroon")))
 (setf color2 (gg:make-motif-submenu-item :desc '("Peachpuff")))
 (opal:add-item bar1 color1 :accelerator '("!m" :|META-m|))
 (opal:add-item bar1 color2 :after "Blue" :key #'car)
-@end smallexample
+@end example
 
 
 @subsubheading Removing Components from the Menubar
@@ -7424,7 +7387,7 @@ The following methods have the same effect on the @code{motif-menubar} as
 they have on the standard @code{menubar}. Please see section @ref{menubar}
 for more information.
 
-@smallexample
+@example
 gg:Menubar-Components @i<motif-menubar> @ref{method}
 gg:Submenu-Components @i<motif-bar-item> @ref{method}
 gg:Get-Bar-Component @i<motif-menubar> @i<item> @ref{method}
@@ -7436,7 +7399,7 @@ gg:Menubar-Enabled-P @i<motif-menubar-component> @ref{method}
 gg:Menubar-Get-Title @i<motif-menubar-component> @ref{method}
 gg:Menubar-Set-Title @i<motif-menubar-component> @ref{method}
 gg:Menubar-Installed-P @i<motif-menubar-component> @ref{method}
-@end smallexample
+@end example
 
 
 @cindex{motif-scrolling-labeled-box}
@@ -7445,7 +7408,7 @@ gg:Menubar-Installed-P @i<motif-menubar-component> @ref{method}
 
 @anchor{motif-scrolling-labeled-box}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Scrolling-Labeled-Box motif-gadget-prototype
    (:maybe-constant '(:left :top :width :field-offset :label-offset :label-string
                       :field-font :label-font :foreground-color :active-p :visible))
@@ -7463,7 +7426,7 @@ gg:Menubar-Installed-P @i<motif-menubar-component> @ref{method}
    (:active-p T)
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 @center @image{motif-scrolling-labeled-box-pix, 5.5in}
 
@@ -7488,7 +7451,7 @@ appear "grayed-out" and the field will not be editable.
 
 @center @image{motif-error-gadget-pix, 5.5in}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Error-Gadget opal:aggregadget
    (:string "Error")
    (:parent-window NIL)
@@ -7500,7 +7463,7 @@ appear "grayed-out" and the field will not be editable.
    (:foreground-color opal:motif-orange)
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 The loader file for the @code{motif-error-gadget} is "motif-error-gadget-loader".
 
@@ -7520,7 +7483,7 @@ contain any instance of @code{opal:color}.
 
 @anchor{motif-query-gadget}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Query-Gadget gg:motif-error-gadget
    (:string "Is that OK?")
    (:button-names '("OK" "CANCEL"))
@@ -7533,7 +7496,7 @@ contain any instance of @code{opal:color}.
    (:foreground-color opal:motif-orange)
    (:selection-function NIL)   @emph{; (lambda (gadget value))}
    )
-@end smallexample
+@end example
 
 The loader file for the @code{motif-query-gadget} is "motif-error-gadget-loader"
 (it is defined in the same file as the @code{motif-error-gadget}).
@@ -7549,11 +7512,8 @@ The additional @code{:foreground-color} slot may contain any instance of
 @code{opal:color}, and determines the color of the dialog box.
 
 
-@node Motif Save Gadget
-@section Motif Save Gadget
+@section[Motif Save Gadget]
 @anchor{motif-save-gadget}
-
-
 @float Figure, fig:ex821
 @center @image{motif-save-gadget, 5.5in}
 @caption{An instance of the Motif save gadget. "/usr0/rajan" is the
@@ -7561,7 +7521,7 @@ current directory.}
 @anchor{motif-save-gadget-tag}
 @end float
 
-@smallexample
+@example
 (create-instance 'motif-save-gadget opal:aggregadget  
   (:maybe-constant '(:left :top :parent-window :window-title :window-left :window-top
 		     :message-string :num-visible :initial-directory :button-panel-items 
@@ -7590,7 +7550,7 @@ current directory.}
   (:file-menu-font (opal:get-standard-font NIL :bold NIL))
   (:button-panel-font opal:default-font)
   ...)
-@end smallexample
+@end example
 
 The @code{motif-save-gadget} works exactly like the @code{save-gadget}, described
 in section @ref{save-gadget}. The only
@@ -7602,14 +7562,14 @@ The loader file for the @code{motif-save-gadget} is named
 "motif-save-gadget-loader". Figure @ref{motif-save-gadget-tag} shows an
 instance of the Motif save gadget.
 
-@cindex{motif-load-gadget}
 
-@node Motif Load Gadget
-@section Motif Load Gadget
 
+
+
+@section[Motif Load Gadget]
 @anchor{motif-load-gadget}
-
-@smallexample
+@cindex{motif-load-gadget}
+@example
 (create-instance 'gg:Motif-Load-Gadget opal:aggregadget  
   (:maybe-constant '(:left :top :parent-window :window-title :window-left
 		     :window-top :dir-input-field-font :dir-input-label-font
@@ -7639,7 +7599,7 @@ instance of the Motif save gadget.
   (:button-panel-font opal:default-font)
   ...)
 
-@end smallexample
+@end example
 
 The @code{motif-load-gadget} is loaded along with the @code{motif-save-gadget}
 by the file "motif-save-gadget-loader".
@@ -7664,7 +7624,7 @@ the use of property sheets, see section @ref{propertysheets}.
 @node @code{motif-prop-sheet-with-ok}
 @subsubsection @code{motif-prop-sheet-with-ok}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Prop-Sheet-With-OK opal:aggregadget
     (:maybe-constant '(:left :top :items :default-filter :ok-function :apply-function
                        :cancel-function :v-spacing :multi-line-p :select-label-p
@@ -7695,7 +7655,7 @@ the use of property sheets, see section @ref{propertysheets}.
     (:value-selected ...
     (:value ...
     (:changed-values ...
-@end smallexample
+@end example
 
 The loader for @code{motif-prop-sheet-with-OK} is
 "motif-prop-sheet-win-loader".
@@ -7711,7 +7671,7 @@ Motif look-and-feel, and you can set the foreground color.
 
 @anchor{motif-prop-sheet-for-obj-with-ok}
 
-@smallexample
+@example
 (create-instance 'Motif-Prop-Sheet-For-Obj-With-OK Motif-Prop-Sheet-With-OK
     (:maybe-constant '(:left :top :obj :slots :eval-p :ok-function :apply-function
                        :cancel-function :v-spacing :multi-line-p :select-label-p
@@ -7753,7 +7713,7 @@ Motif look-and-feel, and you can set the foreground color.
     (:value-selected NIL) @emph{; set with the selected value objects (or a list)}
     (:value ...)  @emph{; list of pairs of all the slots and their (filtered) values}
     (:changed-values NIL)) @emph{; only the values that have changed}
-@end smallexample
+@end example
 
 @float Figure, fig:ex822
 @center @image{motifpropforobj, 5.5in}
@@ -7792,7 +7752,7 @@ The parameters are pretty much the same as for
 @code{prop-sheet-for-obj}, with the addition of the @code{:done-function}
 which is called with the property sheet as a parameter.
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Prop-Sheet-For-Obj-With-Done opal:aggregadget
     (:maybe-constant '(:left :top :obj :slots :eval-p :done-function :v-spacing
 		       :multi-line-p :select-label-p :label-selected-func
@@ -7829,7 +7789,7 @@ which is called with the property sheet as a parameter.
     (:height (o-formula (+ 2 (gvl :done-panel :height)
 			   (gvl :propsheet :height))))
     
-@end smallexample
+@end example
 
 The loader for @code{motif-prop-sheet-for-obj-with-done} is
 "motif-prop-sheet-win-loader".
@@ -7842,7 +7802,7 @@ The loader for @code{motif-prop-sheet-for-obj-with-done} is
 
 @anchor{motif-scrolling-window}
 
-@smallexample
+@example
 (create-instance 'gg:Motif-Scrolling-Window-With-Bars opal:aggregadget
    (:maybe-constant '(:left :top :width :height :border-width :title :total-width 
                       :total-height :foreground-color :h-scroll-bar-p :v-scroll-bar-p
@@ -7885,7 +7845,7 @@ The loader for @code{motif-prop-sheet-for-obj-with-done} is
    (:outer-window NIL) ; @emph{call Opal:Update on this window (or on gadget itself)}
    (:clip-window NIL)
    ...)
-@end smallexample
+@end example
 
 @center @image{motif-scrolling-window-gadget, 5.5in}
 
@@ -7918,12 +7878,12 @@ through the @code{:outer-window}, @code{:inner-window}, and
 @code{opal:make-ps-file} with the scrolling-window gadget as an argument. You
 have to send one of the windows that it points to:
 
-@smallexample
+@example
 > (opal:make-ps-file (g-value SCROLL-WIN :outer-window)
                      "fig.PS" :LANDSCAPE-P T :BORDERS-P :MOTIF)
 T
 >
-@end smallexample
+@end example
 
 
 @node Using the Gadgets: Examples
@@ -7946,7 +7906,7 @@ Such an aggregadget is implemented below.
 The formula in the @code{:diameter} slot of the circle uses the KR function
 @code{gvl} to access the @code{:value} slot of the vertical slider.
 
-@smallexample
+@example
 (create-instance 'BALLOON opal:aggregadget
    (:parts
     `((:slider ,gg:v-slider
@@ -7957,7 +7917,7 @@ The formula in the @code{:diameter} slot of the circle uses the KR function
                (:left 100) (:top 50)
                (:width ,(o-formula (gvl :diameter)))
                (:height ,(o-formula (gvl :diameter)))))))
-@end smallexample
+@end example
 
 @node Using the @code{:selection-function} Slot
 @subsection Using the @code{:selection-function} Slot
@@ -7972,7 +7932,7 @@ also like to define a function which
 displays a message to the screen when a new city is selected. This
 panel can be created with the definitions below.
 
-@smallexample
+@example
 (create-instance 'MY-BUTTONS gg:text-button-panel
     (:selection-function #'Report-City-Selected)
     (:items '("Athens" "Babylon" "Rome" "Carthage")))
@@ -7981,7 +7941,7 @@ panel can be created with the definitions below.
   (format t "Selected city:  ~S~%~%" value)
   (format t "Pressed button object ~S~%"
             (gv gadgets-object :value-obj)))
-@end smallexample
+@end example
 
 
 @node Using Functions in the @code{:items} Slot
@@ -7994,7 +7954,7 @@ or atom in the @code{:items} list. A menu which executes functions assigned to
 item strings appears below. Only one function
 (@code{My-Cut}) has been defined, but the definition of the others is analogous.
 
-@smallexample
+@example
 (create-instance 'MY-MENU gg:menu
    (:left 20)
    (:top 20)
@@ -8003,7 +7963,7 @@ item strings appears below. Only one function
 
 (defun my-cut (gadgets-object item-string)
   (format t "Function CUT called~%~%"))
-@end smallexample
+@end example
 
 @node Selecting Buttons
 @subsection Selecting Buttons
@@ -8024,7 +7984,7 @@ text-button-panel and an x-button-panel could be chapterly selected. In both
 cases, the selected items (i.e., those appearing in the @code{:value} slot) will
 appear selected when the button panels are displayed in a window.
 
-@smallexample
+@example
 (create-instance 'MY-TEXT-BUTTONS gg:text-button-panel
    (:items '(:left :center :right)))
 (gv MY-TEXT-BUTTONS :value)   @emph{;; initialize the formula in the :value slot}
@@ -8035,7 +7995,7 @@ appear selected when the button panels are displayed in a window.
 (gv MY-X-BUTTONS :value)   @emph{;; initialize the formula in the :value slot}
 @emph{;; Value must be a list because x-buttons have multiple selection}
 (s-value MY-X-BUTTONS :value '("Bold" "Underline"))
-@end smallexample
+@end example
 
 Buttons may also be selected by setting the @code{:value-obj} slot to be the
 actual button object or list of button objects which should be selected.
@@ -8043,14 +8003,14 @@ This method requires the designer to look at the internal slots of the button
 gadgets. The example below shows how the same results may be
 obtained using this method as were obtained in the above example.
 
-@smallexample
+@example
 (create-instance 'NEW-TEXT-BUTTONS gg:text-buttons-panel
    (:items `(:left :center :right)))
 (s-value NEW-TEXT-BUTTONS
          :value-obj
          @emph{;; The second button corresponds to the item ":center"}
          (second (gv NEW-TEXT-BUTTONS :text-button-list :components)))
-@end smallexample
+@end example
 
 The @code{:value} slot of a single button will either contain the @code{:string}
 of the button or @code{nil}. Single buttons will appear selected when the @code{:value}
@@ -8077,17 +8037,17 @@ first element in the list, rather than the list itself. In other words, the
 parameter, rather than the entire item list.
 
 Suppose the list in the @code{:items} slot of the scrolling menu is
-@smallexample
+@example
 (list v-scroll-bar v-slider trill-device)
-@end smallexample
+@end example
 which is a list of Garnet Gadget schemas.
 A function must be provided which returns a string identifying an item when
 given a schema as input. The following slot/value pair, inserted into the
 definition of the new schema, will accomplish this task:
-@smallexample
+@example
 (:item-to-string-function #'(lambda (item)
                               (if item
                                   (name-for-schema item)  @emph{;; imported from KR}
                                   "")))
-@end smallexample
+@end example
 
